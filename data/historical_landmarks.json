@@ -1,0 +1,352 @@
+{
+  "schema_version": 1,
+  "project": "CHRONOVERSE",
+  "dataset": "historical_landmarks_seed_01",
+  "calendar": "astronomical year numbering (year 0 = 1 BCE)",
+  "precision": "Coordinates are approximate modern reference markers, not historical footprint surveys",
+  "terrain_authoritative": false,
+  "safe_landing_authoritative": false,
+  "notes": "Existence dates are broad reference windows, not proof of continuous unchanged physical structure. Do not use this file to approve landing.",
+  "records": [
+    {
+      "id": "norwich-castle",
+      "name": "Norwich Castle",
+      "location": {
+        "lat": 52.6286,
+        "lon": 1.2967,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1067,
+      "latest_reference_year": 2032,
+      "description": "Norman castle; present stone keep largely dates to the 12th century",
+      "source_url": "https://www.norwichcastle.norfolk.gov.uk/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "norwich-cathedral",
+      "name": "Norwich Cathedral",
+      "location": {
+        "lat": 52.6319,
+        "lon": 1.3023,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1096,
+      "latest_reference_year": 2032,
+      "description": "Cathedral founded in 1096; medieval construction and later modifications",
+      "source_url": "https://www.cathedral.org.uk/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "castle-acre-priory",
+      "name": "Castle Acre Priory",
+      "location": {
+        "lat": 52.7007,
+        "lon": 0.6845,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1090,
+      "latest_reference_year": 2032,
+      "description": "Cluniac priory founded in the late 11th century; now ruins",
+      "source_url": "https://www.english-heritage.org.uk/visit/places/castle-acre-priory/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "castle-acre-castle",
+      "name": "Castle Acre Castle",
+      "location": {
+        "lat": 52.704,
+        "lon": 0.685,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1070,
+      "latest_reference_year": 2032,
+      "description": "Norman castle earthworks and surviving remains",
+      "source_url": "https://www.english-heritage.org.uk/visit/places/castle-acre-castle-and-bailey-gate/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "ely-cathedral",
+      "name": "Ely Cathedral",
+      "location": {
+        "lat": 52.3987,
+        "lon": 0.2645,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1083,
+      "latest_reference_year": 2032,
+      "description": "Norman cathedral construction began in 1083; octagon built after 1322 collapse",
+      "source_url": "https://www.elycathedral.org/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "framlingham-castle",
+      "name": "Framlingham Castle",
+      "location": {
+        "lat": 52.2227,
+        "lon": 1.3439,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1190,
+      "latest_reference_year": 2032,
+      "description": "Late 12th-century curtain wall castle, altered through time",
+      "source_url": "https://www.english-heritage.org.uk/visit/places/framlingham-castle/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "orford-castle",
+      "name": "Orford Castle",
+      "location": {
+        "lat": 52.094,
+        "lon": 1.535,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1165,
+      "latest_reference_year": 2032,
+      "description": "Henry II's 12th-century keep, built 1165–1173",
+      "source_url": "https://www.english-heritage.org.uk/visit/places/orford-castle/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "oxburgh-hall",
+      "name": "Oxburgh Hall",
+      "location": {
+        "lat": 52.5814,
+        "lon": 0.5734,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1482,
+      "latest_reference_year": 2032,
+      "description": "Late medieval moated manor house built by the Bedingfeld family",
+      "source_url": "https://www.nationaltrust.org.uk/visit/norfolk/oxburgh-estate",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "blickling-estate",
+      "name": "Blickling Hall",
+      "location": {
+        "lat": 52.813,
+        "lon": 1.231,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1616,
+      "latest_reference_year": 2032,
+      "description": "Present Jacobean mansion constructed in the early 17th century",
+      "source_url": "https://www.nationaltrust.org.uk/visit/norfolk/blickling-estate",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "holkham-hall",
+      "name": "Holkham Hall",
+      "location": {
+        "lat": 52.954,
+        "lon": 0.804,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1734,
+      "latest_reference_year": 2032,
+      "description": "18th-century Palladian country house; construction began in 1734",
+      "source_url": "https://www.holkham.co.uk/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "swaffham-market",
+      "name": "Swaffham Market Place",
+      "location": {
+        "lat": 52.648,
+        "lon": 0.685,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1500,
+      "latest_reference_year": 2032,
+      "description": "Historic market town; marker denotes approximate modern market centre, not an exact medieval footprint",
+      "source_url": "https://www.british-history.ac.uk/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "great-yarmouth-walls",
+      "name": "Great Yarmouth Town Wall",
+      "location": {
+        "lat": 52.606,
+        "lon": 1.728,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1261,
+      "latest_reference_year": 2032,
+      "description": "Medieval town wall developed from the late 13th century; surviving stretches",
+      "source_url": "https://historicengland.org.uk/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "cambridge-kings",
+      "name": "King's College Chapel",
+      "location": {
+        "lat": 52.204,
+        "lon": 0.116,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1446,
+      "latest_reference_year": 2032,
+      "description": "Construction began in 1446; completion followed in the 16th century",
+      "source_url": "https://www.kings.cam.ac.uk/chapel",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "peterborough-cathedral",
+      "name": "Peterborough Cathedral",
+      "location": {
+        "lat": 52.573,
+        "lon": -0.24,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1118,
+      "latest_reference_year": 2032,
+      "description": "Norman cathedral rebuilding began in 1118",
+      "source_url": "https://www.peterborough-cathedral.org.uk/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "colchester-castle",
+      "name": "Colchester Castle",
+      "location": {
+        "lat": 51.889,
+        "lon": 0.903,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1076,
+      "latest_reference_year": 2032,
+      "description": "Norman keep constructed over Roman temple foundations",
+      "source_url": "https://colchester.cimuseums.org.uk/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "stonehenge",
+      "name": "Stonehenge",
+      "location": {
+        "lat": 51.1789,
+        "lon": -1.8262,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": -3000,
+      "latest_reference_year": 2032,
+      "description": "Prehistoric monument built in multiple phases; chronology approximate",
+      "source_url": "https://www.english-heritage.org.uk/visit/places/stonehenge/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "hadrians-wall",
+      "name": "Hadrian's Wall (Housesteads)",
+      "location": {
+        "lat": 55.013,
+        "lon": -2.331,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 122,
+      "latest_reference_year": 2032,
+      "description": "Roman frontier wall ordered under Hadrian; marker near Housesteads",
+      "source_url": "https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "tower-london",
+      "name": "Tower of London",
+      "location": {
+        "lat": 51.5081,
+        "lon": -0.0759,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1078,
+      "latest_reference_year": 2032,
+      "description": "White Tower begun in the late 11th century; later complex expanded",
+      "source_url": "https://www.hrp.org.uk/tower-of-london/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "westminster-abbey",
+      "name": "Westminster Abbey",
+      "location": {
+        "lat": 51.4994,
+        "lon": -0.1273,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1245,
+      "latest_reference_year": 2032,
+      "description": "Current Gothic church began in 1245; earlier abbey existed",
+      "source_url": "https://www.westminster-abbey.org/",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    },
+    {
+      "id": "windsor-castle",
+      "name": "Windsor Castle",
+      "location": {
+        "lat": 51.4839,
+        "lon": -0.6044,
+        "accuracy": "approximate modern reference"
+      },
+      "earliest_reference_year": 1070,
+      "latest_reference_year": 2032,
+      "description": "Royal castle founded in Norman period, extensively rebuilt",
+      "source_url": "https://www.rct.uk/visit/windsor-castle",
+      "temporal_status": "historical reference only",
+      "landing_safety": "unknown",
+      "anchor_eligibility": "requires in-world verification",
+      "confidence": "review_required"
+    }
+  ]
+}
