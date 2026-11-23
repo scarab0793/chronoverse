@@ -1,0 +1,812 @@
+{
+  "schema_version": 1,
+  "dataset": "historical_settlements_seed_01",
+  "region": "England",
+  "calendar": "astronomical",
+  "spatial_reference": "WGS84 modern approximate town-centre markers",
+  "record_count": 40,
+  "methodology": "Location markers are modern town centres, not reconstructed historical centres. Settlement existence, urban footprint, waterways, roads and names vary by year. No date ranges are asserted without record-level verification.",
+  "not_for_landing_validation": true,
+  "records": [
+    {
+      "id": "settlement-001",
+      "name": "Norwich",
+      "modern_centre": {
+        "lat": 52.6309,
+        "lon": 1.2974
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Anglo-Saxon and medieval urban centre; Roman Venta Icenorum was a separate nearby site",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-002",
+      "name": "King's Lynn",
+      "modern_centre": {
+        "lat": 52.754,
+        "lon": 0.397
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Medieval port formerly known as Bishop's Lynn",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-003",
+      "name": "Great Yarmouth",
+      "modern_centre": {
+        "lat": 52.608,
+        "lon": 1.728
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Medieval North Sea fishing and port settlement; coastline changed",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-004",
+      "name": "Thetford",
+      "modern_centre": {
+        "lat": 52.414,
+        "lon": 0.748
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Major late Anglo-Saxon settlement and medieval town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-005",
+      "name": "Swaffham",
+      "modern_centre": {
+        "lat": 52.648,
+        "lon": 0.686
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic market town; early footprint requires verification",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-006",
+      "name": "Dereham",
+      "modern_centre": {
+        "lat": 52.683,
+        "lon": 0.94
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic Norfolk market town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-007",
+      "name": "Wymondham",
+      "modern_centre": {
+        "lat": 52.571,
+        "lon": 1.116
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Medieval market town and abbey settlement",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-008",
+      "name": "Attleborough",
+      "modern_centre": {
+        "lat": 52.519,
+        "lon": 1.015
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic market town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-009",
+      "name": "Diss",
+      "modern_centre": {
+        "lat": 52.376,
+        "lon": 1.109
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic Norfolk market town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-010",
+      "name": "Aylsham",
+      "modern_centre": {
+        "lat": 52.795,
+        "lon": 1.252
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Medieval market town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-011",
+      "name": "North Walsham",
+      "modern_centre": {
+        "lat": 52.822,
+        "lon": 1.388
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic market town with medieval church",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-012",
+      "name": "Fakenham",
+      "modern_centre": {
+        "lat": 52.83,
+        "lon": 0.848
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic market settlement",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-013",
+      "name": "Holt",
+      "modern_centre": {
+        "lat": 52.906,
+        "lon": 1.091
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic town; later rebuilding changed built fabric",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-014",
+      "name": "Cromer",
+      "modern_centre": {
+        "lat": 52.932,
+        "lon": 1.302
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Coastal settlement with changing cliff and shoreline",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-015",
+      "name": "Sheringham",
+      "modern_centre": {
+        "lat": 52.943,
+        "lon": 1.211
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Coastal fishing settlement; shoreline not static",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-016",
+      "name": "Wells-next-the-Sea",
+      "modern_centre": {
+        "lat": 52.955,
+        "lon": 0.852
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic harbour settlement; tidal channels changed",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-017",
+      "name": "Hunstanton",
+      "modern_centre": {
+        "lat": 52.937,
+        "lon": 0.489
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Coastal settlement; modern town expanded in Victorian era",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-018",
+      "name": "Downham Market",
+      "modern_centre": {
+        "lat": 52.602,
+        "lon": 0.378
+      },
+      "modern_county": "Norfolk",
+      "historical_context": "Historic market town near the Fens",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-019",
+      "name": "Brandon",
+      "modern_centre": {
+        "lat": 52.448,
+        "lon": 0.623
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "Historic settlement on the Little Ouse",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-020",
+      "name": "Bury St Edmunds",
+      "modern_centre": {
+        "lat": 52.247,
+        "lon": 0.718
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "Important medieval abbey town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-021",
+      "name": "Ipswich",
+      "modern_centre": {
+        "lat": 52.056,
+        "lon": 1.149
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "Early medieval trading port with extensive archaeology",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-022",
+      "name": "Lowestoft",
+      "modern_centre": {
+        "lat": 52.479,
+        "lon": 1.755
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "North Sea coastal town with changing maritime landscape",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-023",
+      "name": "Southwold",
+      "modern_centre": {
+        "lat": 52.326,
+        "lon": 1.68
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "Historic coastal port and market town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-024",
+      "name": "Woodbridge",
+      "modern_centre": {
+        "lat": 52.094,
+        "lon": 1.316
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "Historic River Deben port",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-025",
+      "name": "Framlingham",
+      "modern_centre": {
+        "lat": 52.222,
+        "lon": 1.343
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "Medieval castle town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-026",
+      "name": "Orford",
+      "modern_centre": {
+        "lat": 52.095,
+        "lon": 1.535
+      },
+      "modern_county": "Suffolk",
+      "historical_context": "Medieval royal castle and port; Orford Ness shifted",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-027",
+      "name": "Cambridge",
+      "modern_centre": {
+        "lat": 52.205,
+        "lon": 0.122
+      },
+      "modern_county": "Cambridgeshire",
+      "historical_context": "Roman-period settlement nearby and medieval university town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-028",
+      "name": "Ely",
+      "modern_centre": {
+        "lat": 52.399,
+        "lon": 0.263
+      },
+      "modern_county": "Cambridgeshire",
+      "historical_context": "Cathedral city on former Isle of Ely",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-029",
+      "name": "Peterborough",
+      "modern_centre": {
+        "lat": 52.573,
+        "lon": -0.243
+      },
+      "modern_county": "Cambridgeshire",
+      "historical_context": "Medieval abbey and cathedral city",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-030",
+      "name": "Huntingdon",
+      "modern_centre": {
+        "lat": 52.331,
+        "lon": -0.185
+      },
+      "modern_county": "Cambridgeshire",
+      "historical_context": "Historic market town by River Great Ouse",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-031",
+      "name": "Colchester",
+      "modern_centre": {
+        "lat": 51.889,
+        "lon": 0.904
+      },
+      "modern_county": "Essex",
+      "historical_context": "Roman Camulodunum and later medieval town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-032",
+      "name": "Chelmsford",
+      "modern_centre": {
+        "lat": 51.736,
+        "lon": 0.47
+      },
+      "modern_county": "Essex",
+      "historical_context": "Historic market settlement; modern urban extent differs",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-033",
+      "name": "Maldon",
+      "modern_centre": {
+        "lat": 51.731,
+        "lon": 0.674
+      },
+      "modern_county": "Essex",
+      "historical_context": "Historic estuarine port and Saxon-era settlement",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-034",
+      "name": "Saffron Walden",
+      "modern_centre": {
+        "lat": 52.023,
+        "lon": 0.241
+      },
+      "modern_county": "Essex",
+      "historical_context": "Medieval market town",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-035",
+      "name": "Harwich",
+      "modern_centre": {
+        "lat": 51.944,
+        "lon": 1.285
+      },
+      "modern_county": "Essex",
+      "historical_context": "Historic harbour town; port installations changed",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-036",
+      "name": "St Albans",
+      "modern_centre": {
+        "lat": 51.751,
+        "lon": -0.337
+      },
+      "modern_county": "Hertfordshire",
+      "historical_context": "Medieval town adjacent to Roman Verulamium",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-037",
+      "name": "Lincoln",
+      "modern_centre": {
+        "lat": 53.23,
+        "lon": -0.54
+      },
+      "modern_county": "Lincolnshire",
+      "historical_context": "Roman colonia and medieval cathedral city",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-038",
+      "name": "Boston",
+      "modern_centre": {
+        "lat": 52.977,
+        "lon": -0.026
+      },
+      "modern_county": "Lincolnshire",
+      "historical_context": "Medieval port; Fenland waterways changed",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-039",
+      "name": "Nottingham",
+      "modern_centre": {
+        "lat": 52.954,
+        "lon": -1.149
+      },
+      "modern_county": "Nottinghamshire",
+      "historical_context": "Medieval town with Norman castle",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "settlement-040",
+      "name": "York",
+      "modern_centre": {
+        "lat": 53.96,
+        "lon": -1.082
+      },
+      "modern_county": "North Yorkshire",
+      "historical_context": "Roman Eboracum and medieval city",
+      "year_range": null,
+      "temporal_validity": "unverified",
+      "historical_footprint": "not_mapped",
+      "settlement_type": "town_or_city",
+      "source_leads": [
+        "https://historicengland.org.uk/listing/the-list/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "confidence": "review_required",
+      "landing_safety": "unknown"
+    }
+  ]
+}
