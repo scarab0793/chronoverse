@@ -1,0 +1,273 @@
+{
+  "schema_version": 1,
+  "dataset": "historical_landscape_corridors_seed_01",
+  "records": [
+    {
+      "id": "corridor-001",
+      "name": "Peddars Way",
+      "kind": "Roman road corridor",
+      "region": "Norfolk",
+      "description": "Roman-origin route corridor from Knettishall Heath towards Holme-next-the-Sea",
+      "schematic_start": {
+        "lat": 52.38,
+        "lon": 0.88
+      },
+      "schematic_end": {
+        "lat": 52.96,
+        "lon": 0.53
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-002",
+      "name": "Icknield Way",
+      "kind": "prehistoric trackway corridor",
+      "region": "East Anglia",
+      "description": "Long-distance ancient route; alignments and period-specific use uncertain",
+      "schematic_start": {
+        "lat": 52.3,
+        "lon": 0.5
+      },
+      "schematic_end": {
+        "lat": 51.95,
+        "lon": 0.1
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-003",
+      "name": "Ermine Street",
+      "kind": "Roman road corridor",
+      "region": "Eastern England",
+      "description": "Roman London–Lincoln–York road; endpoints here schematic",
+      "schematic_start": {
+        "lat": 51.51,
+        "lon": -0.1
+      },
+      "schematic_end": {
+        "lat": 53.23,
+        "lon": -0.54
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-004",
+      "name": "Fen Causeway",
+      "kind": "Roman road corridor",
+      "region": "Cambridgeshire / Norfolk",
+      "description": "Roman route across Fenland; precise historic alignments require source mapping",
+      "schematic_start": {
+        "lat": 52.57,
+        "lon": -0.24
+      },
+      "schematic_end": {
+        "lat": 52.63,
+        "lon": 1.3
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-005",
+      "name": "River Great Ouse",
+      "kind": "waterway",
+      "region": "East Anglia",
+      "description": "River corridor with historically changing channels and Fenland drainage",
+      "schematic_start": {
+        "lat": 52.33,
+        "lon": -0.18
+      },
+      "schematic_end": {
+        "lat": 52.75,
+        "lon": 0.4
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-006",
+      "name": "River Wensum",
+      "kind": "waterway",
+      "region": "Norfolk",
+      "description": "River through Norwich; bends, banks and navigation vary by period",
+      "schematic_start": {
+        "lat": 52.83,
+        "lon": 0.86
+      },
+      "schematic_end": {
+        "lat": 52.64,
+        "lon": 1.3
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-007",
+      "name": "River Yare",
+      "kind": "waterway",
+      "region": "Norfolk",
+      "description": "River connecting Norwich area to Great Yarmouth; tidal conditions vary",
+      "schematic_start": {
+        "lat": 52.62,
+        "lon": 1.31
+      },
+      "schematic_end": {
+        "lat": 52.61,
+        "lon": 1.73
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-008",
+      "name": "River Waveney",
+      "kind": "waterway",
+      "region": "Norfolk / Suffolk",
+      "description": "River along parts of the Norfolk–Suffolk boundary",
+      "schematic_start": {
+        "lat": 52.38,
+        "lon": 1.1
+      },
+      "schematic_end": {
+        "lat": 52.47,
+        "lon": 1.71
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-009",
+      "name": "River Deben",
+      "kind": "waterway",
+      "region": "Suffolk",
+      "description": "River and estuary associated with Woodbridge",
+      "schematic_start": {
+        "lat": 52.1,
+        "lon": 1.31
+      },
+      "schematic_end": {
+        "lat": 52.05,
+        "lon": 1.43
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-010",
+      "name": "River Orwell",
+      "kind": "waterway",
+      "region": "Suffolk",
+      "description": "Estuarine corridor near Ipswich and Harwich",
+      "schematic_start": {
+        "lat": 52.06,
+        "lon": 1.15
+      },
+      "schematic_end": {
+        "lat": 51.95,
+        "lon": 1.28
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-011",
+      "name": "Norfolk Broads",
+      "kind": "wetland landscape",
+      "region": "Norfolk",
+      "description": "Medieval peat extraction contributed to later flooded broads; not an unchanged prehistoric lake system",
+      "schematic_start": {
+        "lat": 52.68,
+        "lon": 1.46
+      },
+      "schematic_end": {
+        "lat": 52.7,
+        "lon": 1.6
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "corridor-012",
+      "name": "The Fens",
+      "kind": "wetland landscape",
+      "region": "East Anglia",
+      "description": "Wetland extensively transformed by medieval and early modern drainage",
+      "schematic_start": {
+        "lat": 52.4,
+        "lon": 0.1
+      },
+      "schematic_end": {
+        "lat": 52.8,
+        "lon": 0.3
+      },
+      "geometry_quality": "schematic endpoints only; not navigable line geometry",
+      "period_validity": "requires period-specific verification",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "landing_safety": "unknown"
+    }
+  ],
+  "not_for_pathfinding": true,
+  "not_for_landing_validation": true,
+  "notes": "These are named historical corridors, not surveyed geospatial geometries. Never infer a traversable road or water crossing from the endpoints."
+}
