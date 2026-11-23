@@ -1,0 +1,640 @@
+{
+  "schema_version": 1,
+  "dataset": "historical_events_seed_01",
+  "calendar": "astronomical year numbering",
+  "notes": "Year-only records; some coordinates indicate a representative location rather than exact event site. Entries marked contextual are not single-year occurrences. Links are reference starting points, not verified citations.",
+  "records": [
+    {
+      "id": "event-001",
+      "year": -54,
+      "title": "Caesar második britanniai hadjárata",
+      "place": "Britannia",
+      "description": "Római hadjárat Britannia területén; pontos útvonalak vitatottak",
+      "location": {
+        "lat": 51.5,
+        "lon": 0.1,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/biography/Julius-Caesar-Roman-ruler",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-002",
+      "year": 43,
+      "title": "Britannia római meghódításának kezdete",
+      "place": "Kent",
+      "description": "Claudius császár uralkodása alatt megindul a római invázió",
+      "location": {
+        "lat": 51.3,
+        "lon": 0.9,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.english-heritage.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-003",
+      "year": 60,
+      "title": "Boudica felkelése",
+      "place": "Kelet-Anglia",
+      "description": "Az icenusok és szövetségeseik fellázadnak a római uralom ellen; az év 60/61 körüli",
+      "location": {
+        "lat": 52.5,
+        "lon": 1.2,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/biography/Boudicca",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-004",
+      "year": 122,
+      "title": "Hadrianus falának építése megkezdődik",
+      "place": "Észak-Anglia",
+      "description": "A római határvédelmi fal építése Hadrianus uralkodása alatt",
+      "location": {
+        "lat": 55.013,
+        "lon": -2.331,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.english-heritage.org.uk/visit/places/housesteads-roman-fort-hadrians-wall/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-005",
+      "year": 410,
+      "title": "A római közigazgatás megszűnése Britanniában",
+      "place": "Britannia",
+      "description": "A római fennhatóság felbomlásának hagyományos időpontja; összetett folyamat",
+      "location": {
+        "lat": 52,
+        "lon": -1,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/place/United-Kingdom",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-006",
+      "year": 793,
+      "title": "Lindisfarne viking támadása",
+      "place": "Lindisfarne",
+      "description": "Viking rajtaütés a kolostoron",
+      "location": {
+        "lat": 55.669,
+        "lon": -1.802,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.english-heritage.org.uk/visit/places/lindisfarne-priory/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-007",
+      "year": 865,
+      "title": "A nagy pogány hadsereg megérkezése",
+      "place": "Kelet-Anglia",
+      "description": "A viking sereg angliai hadjáratának kezdete",
+      "location": {
+        "lat": 52.6,
+        "lon": 1.1,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/place/England",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-008",
+      "year": 878,
+      "title": "Edingtoni csata",
+      "place": "Wiltshire",
+      "description": "Alfréd király győzelme a viking sereggel szemben; helyszín közelítő",
+      "location": {
+        "lat": 51.28,
+        "lon": -2.1,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/biography/Alfred-king-of-Wessex",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-009",
+      "year": 1066,
+      "title": "Hastingsi csata",
+      "place": "Battle, Sussex",
+      "description": "Normann győzelem és angol trónváltás",
+      "location": {
+        "lat": 50.915,
+        "lon": 0.487,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.english-heritage.org.uk/visit/places/1066-battle-of-hastings-abbey-and-battlefield/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-010",
+      "year": 1086,
+      "title": "Domesday Book összeírás",
+      "place": "Anglia",
+      "description": "A királyi birtok- és adóösszeírás elkészítése",
+      "location": {
+        "lat": 51.5,
+        "lon": -0.12,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.nationalarchives.gov.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-011",
+      "year": 1096,
+      "title": "Norwich katedrálisának alapítása",
+      "place": "Norwich",
+      "description": "Megkezdődik a normann katedrális építése",
+      "location": {
+        "lat": 52.6319,
+        "lon": 1.3023,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.cathedral.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-012",
+      "year": 1173,
+      "title": "Orford várának fő építési szakasza lezárul",
+      "place": "Orford",
+      "description": "A királyi vár 1165 és 1173 között épül",
+      "location": {
+        "lat": 52.094,
+        "lon": 1.535,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.english-heritage.org.uk/visit/places/orford-castle/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-013",
+      "year": 1215,
+      "title": "Magna Carta kiadása",
+      "place": "Runnymede",
+      "description": "János király elfogadja a Magna Cartát",
+      "location": {
+        "lat": 51.443,
+        "lon": -0.566,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.bl.uk/magna-carta",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-014",
+      "year": 1348,
+      "title": "Fekete halál megjelenése Angliában",
+      "place": "Dorset",
+      "description": "A pestisjárvány eléri Angliát; a terjedés regionálisan eltérő",
+      "location": {
+        "lat": 50.7,
+        "lon": -2.4,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/event/Black-Death",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-015",
+      "year": 1381,
+      "title": "Angol parasztfelkelés",
+      "place": "London",
+      "description": "Az 1381-es felkelés londoni eseményei",
+      "location": {
+        "lat": 51.51,
+        "lon": -0.08,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/event/Peasants-Revolt",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-016",
+      "year": 1446,
+      "title": "King's College Chapel építésének kezdete",
+      "place": "Cambridge",
+      "description": "A kápolna építése megkezdődik",
+      "location": {
+        "lat": 52.204,
+        "lon": 0.116,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.kings.cam.ac.uk/chapel",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-017",
+      "year": 1485,
+      "title": "Bosworthi csata",
+      "place": "Leicestershire",
+      "description": "III. Richárd veresége; Tudor-korszak kezdete",
+      "location": {
+        "lat": 52.59,
+        "lon": -1.41,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/event/Battle-of-Bosworth-Field",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-018",
+      "year": 1536,
+      "title": "Kolostorok feloszlatásának kezdete",
+      "place": "Anglia",
+      "description": "VIII. Henrik uralma alatt megkezdődik a kolostorok feloszlatása",
+      "location": {
+        "lat": 51.5,
+        "lon": -0.12,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.historicengland.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-019",
+      "year": 1588,
+      "title": "Spanyol Armada hadjárata",
+      "place": "Angol-csatorna",
+      "description": "A spanyol flotta és az angol erők hadjárata",
+      "location": {
+        "lat": 50.5,
+        "lon": -1.2,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.rmg.co.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-020",
+      "year": 1605,
+      "title": "Lőpor-összeesküvés leleplezése",
+      "place": "London",
+      "description": "A parlament felrobbantására irányuló összeesküvés leleplezése",
+      "location": {
+        "lat": 51.499,
+        "lon": -0.125,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.parliament.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-021",
+      "year": 1643,
+      "title": "East Anglia-i parlamenti szövetség",
+      "place": "Kelet-Anglia",
+      "description": "Az Eastern Association fontos szerepet játszik az angol polgárháborúban",
+      "location": {
+        "lat": 52.2,
+        "lon": 0.12,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/event/English-Civil-Wars",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-022",
+      "year": 1666,
+      "title": "Nagy londoni tűzvész",
+      "place": "London",
+      "description": "Nagy kiterjedésű tűzvész pusztít Londonban",
+      "location": {
+        "lat": 51.51,
+        "lon": -0.087,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.museumoflondon.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-023",
+      "year": 1707,
+      "title": "Angol–skót unió",
+      "place": "London",
+      "description": "Az Acts of Union létrehozzák Nagy-Britannia királyságát",
+      "location": {
+        "lat": 51.499,
+        "lon": -0.125,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.parliament.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-024",
+      "year": 1759,
+      "title": "Norfolk-i mezőgazdasági átalakulás",
+      "place": "Norfolk",
+      "description": "A 18. századi agrárfejlődés szemléltető időpontja, nem egyetlen esemény",
+      "location": {
+        "lat": 52.7,
+        "lon": 1,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/topic/agricultural-revolution",
+      "date_precision": "year",
+      "record_type": "contextual",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-025",
+      "year": 1805,
+      "title": "Trafalgari csata",
+      "place": "Cádiz közelében",
+      "description": "Brit tengeri győzelem a napóleoni háborúkban",
+      "location": {
+        "lat": 36.29,
+        "lon": -6.25,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.rmg.co.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-026",
+      "year": 1830,
+      "title": "Liverpool–Manchester vasút megnyitása",
+      "place": "Északnyugat-Anglia",
+      "description": "Megnyílik a két várost összekötő vasútvonal",
+      "location": {
+        "lat": 53.48,
+        "lon": -2.24,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.scienceandindustrymuseum.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-027",
+      "year": 1851,
+      "title": "Nagy Kiállítás",
+      "place": "London",
+      "description": "Megnyílik a Great Exhibition a Crystal Palace épületében",
+      "location": {
+        "lat": 51.503,
+        "lon": -0.17,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.vam.ac.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-028",
+      "year": 1885,
+      "title": "Third Anglo-Burmese War",
+      "place": "Burma (Mianmar)",
+      "description": "Brit hadjárat, amely a burmai királyság bekebelezéséhez vezet",
+      "location": {
+        "lat": 21.98,
+        "lon": 96.08,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/event/Third-Anglo-Burmese-War",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-029",
+      "year": 1885,
+      "title": "Motor Car Act előzményei – közlekedési korszak",
+      "place": "Anglia",
+      "description": "1885 körüli technikatörténeti kontextus, nem konkrét jogszabály",
+      "location": {
+        "lat": 52.2,
+        "lon": 0.12,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.sciencemuseum.org.uk/",
+      "date_precision": "year",
+      "record_type": "contextual",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-030",
+      "year": 1914,
+      "title": "Első világháború kezdete",
+      "place": "Európa",
+      "description": "A háború kitörése 1914-ben",
+      "location": {
+        "lat": 50.85,
+        "lon": 4.35,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.iwm.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-031",
+      "year": 1918,
+      "title": "Első világháborús fegyverszünet",
+      "place": "Compiègne",
+      "description": "1918. november 11-i fegyverszünet",
+      "location": {
+        "lat": 49.43,
+        "lon": 2.91,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.iwm.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-032",
+      "year": 1939,
+      "title": "Második világháború kezdete Európában",
+      "place": "Lengyelország",
+      "description": "Németország megtámadja Lengyelországot",
+      "location": {
+        "lat": 52.23,
+        "lon": 21.01,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.iwm.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-033",
+      "year": 1940,
+      "title": "Angliai csata",
+      "place": "Dél-Anglia",
+      "description": "A brit légtér feletti hadjárat",
+      "location": {
+        "lat": 51.5,
+        "lon": 0,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.rafmuseum.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-034",
+      "year": 1944,
+      "title": "Normandiai partraszállás",
+      "place": "Normandia",
+      "description": "Szövetséges partraszállás 1944. június 6-án",
+      "location": {
+        "lat": 49.34,
+        "lon": -0.61,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.iwm.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-035",
+      "year": 1945,
+      "title": "Második világháború vége Európában",
+      "place": "Európa",
+      "description": "1945 májusában véget ér a háború Európában",
+      "location": {
+        "lat": 52.52,
+        "lon": 13.4,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.iwm.org.uk/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-036",
+      "year": 1969,
+      "title": "Apollo 11 holdraszállás",
+      "place": "Hold",
+      "description": "Az első emberes holdraszállás; földi koordináta nem értelmezhető",
+      "location": null,
+      "source_url": "https://www.nasa.gov/mission/apollo-11/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-037",
+      "year": 1989,
+      "title": "Berlini fal megnyitása",
+      "place": "Berlin",
+      "description": "1989 novemberében megnyílnak az átkelők",
+      "location": {
+        "lat": 52.516,
+        "lon": 13.377,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.berliner-mauer-gedenkstaette.de/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-038",
+      "year": 1991,
+      "title": "Szovjetunió megszűnése",
+      "place": "Moszkva",
+      "description": "A Szovjetunió 1991 decemberében megszűnik",
+      "location": {
+        "lat": 55.75,
+        "lon": 37.62,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.britannica.com/place/Soviet-Union",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-039",
+      "year": 2002,
+      "title": "Euro készpénz bevezetése",
+      "place": "Euróövezet",
+      "description": "Az euróbankjegyek és -érmék forgalomba kerülnek",
+      "location": {
+        "lat": 50.85,
+        "lon": 4.35,
+        "precision": "approximate"
+      },
+      "source_url": "https://www.ecb.europa.eu/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    },
+    {
+      "id": "event-040",
+      "year": 2020,
+      "title": "COVID-19 világjárvány",
+      "place": "Világszerte",
+      "description": "A WHO 2020 márciusában pandémiának minősíti a járványt",
+      "location": null,
+      "source_url": "https://www.who.int/",
+      "date_precision": "year",
+      "record_type": "event",
+      "verification_status": "review_required"
+    }
+  ]
+}
