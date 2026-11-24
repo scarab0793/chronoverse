@@ -1,0 +1,1454 @@
+{
+  "schema_version": 1,
+  "dataset": "npc_social_archetypes",
+  "calendar": "astronomical",
+  "notes": "Procedural character role templates; no historical population proportions, fixed gender roles, verified wages or individual identities. Early Mesolithic roles may overlap.",
+  "records": [
+    {
+      "id": "npc--8999-1",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "role": "Vadász",
+      "social_context": "élelemszerzés",
+      "activities": [
+        "vadászat",
+        "nyomkövetés"
+      ],
+      "language_context": "Ismeretlen őskori nyelvek; fiktív kommunikációs modell",
+      "clothing_material_candidates": [
+        "bőr",
+        "növényi rost"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc--8999-2",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "role": "Gyűjtögető",
+      "social_context": "élelemszerzés",
+      "activities": [
+        "növénygyűjtés",
+        "feldolgozás"
+      ],
+      "language_context": "Ismeretlen őskori nyelvek; fiktív kommunikációs modell",
+      "clothing_material_candidates": [
+        "bőr",
+        "növényi rost"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc--8999-3",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "role": "Halász",
+      "social_context": "élelemszerzés",
+      "activities": [
+        "halászat",
+        "eszközjavítás"
+      ],
+      "language_context": "Ismeretlen őskori nyelvek; fiktív kommunikációs modell",
+      "clothing_material_candidates": [
+        "bőr",
+        "növényi rost"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc--8999-4",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "role": "Eszközkészítő",
+      "social_context": "kézművesség",
+      "activities": [
+        "kőpattintás",
+        "javítás"
+      ],
+      "language_context": "Ismeretlen őskori nyelvek; fiktív kommunikációs modell",
+      "clothing_material_candidates": [
+        "bőr",
+        "növényi rost"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc--8999-5",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "role": "Táborfenntartó",
+      "social_context": "közösségi munka",
+      "activities": [
+        "tűzfenntartás",
+        "menedékjavítás"
+      ],
+      "language_context": "Ismeretlen őskori nyelvek; fiktív kommunikációs modell",
+      "clothing_material_candidates": [
+        "bőr",
+        "növényi rost"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc--8999-6",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "role": "Gondozó",
+      "social_context": "közösségi munka",
+      "activities": [
+        "gyermekgondozás",
+        "élelemkészítés"
+      ],
+      "language_context": "Ismeretlen őskori nyelvek; fiktív kommunikációs modell",
+      "clothing_material_candidates": [
+        "bőr",
+        "növényi rost"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-1",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Földműves",
+      "social_context": "parasztság",
+      "activities": [
+        "vetés",
+        "aratás",
+        "állatgondozás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-2",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Bérmunkás",
+      "social_context": "falusi munkás",
+      "activities": [
+        "idénymunka",
+        "szállítás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-3",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Pásztor",
+      "social_context": "falusi munkás",
+      "activities": [
+        "legeltetés",
+        "állatgondozás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-4",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Kovács",
+      "social_context": "kézműves",
+      "activities": [
+        "szerszámkészítés",
+        "javítás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-5",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Ács",
+      "social_context": "kézműves",
+      "activities": [
+        "faépítés",
+        "javítás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-6",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Molnár",
+      "social_context": "kézműves",
+      "activities": [
+        "őrlés",
+        "karbantartás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-7",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Pék",
+      "social_context": "kézműves",
+      "activities": [
+        "dagasztás",
+        "sütés"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-8",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Takács",
+      "social_context": "kézműves",
+      "activities": [
+        "szövés",
+        "fonalbeszerzés"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-9",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Szabó",
+      "social_context": "kézműves",
+      "activities": [
+        "varrás",
+        "ruhajavítás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-10",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Cipész",
+      "social_context": "kézműves",
+      "activities": [
+        "bőrmunka",
+        "javítás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-11",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Fazekas",
+      "social_context": "kézműves",
+      "activities": [
+        "formázás",
+        "égetés"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-12",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Kereskedő",
+      "social_context": "városi polgár",
+      "activities": [
+        "beszerzés",
+        "alkudozás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-13",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Fogadós",
+      "social_context": "városi vagy falusi polgár",
+      "activities": [
+        "vendéglátás",
+        "beszerzés"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-14",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Halász",
+      "social_context": "parti munkás",
+      "activities": [
+        "halászat",
+        "hálójavítás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-15",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Hajós",
+      "social_context": "kikötői munkás",
+      "activities": [
+        "rakodás",
+        "hajózás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-16",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Pap",
+      "social_context": "egyházi személy",
+      "activities": [
+        "szertartás",
+        "lelkipásztori munka"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-17",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Szerzetes",
+      "social_context": "egyházi személy",
+      "activities": [
+        "ima",
+        "közösségi munka"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-18",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Írnok",
+      "social_context": "írni tudó szolgálattevő",
+      "activities": [
+        "másolás",
+        "nyilvántartás"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-19",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Birtokintéző",
+      "social_context": "birtoki tisztségviselő",
+      "activities": [
+        "elszámolás",
+        "felügyelet"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1435-20",
+      "year": 1435,
+      "era": "Késő középkor",
+      "role": "Földbirtokos",
+      "social_context": "birtokos réteg",
+      "activities": [
+        "birtokigazgatás",
+        "kapcsolatok"
+      ],
+      "language_context": "Középangol; helyzettől függően latin és francia",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-1",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Mezőgazdasági munkás",
+      "social_context": "munkásság",
+      "activities": [
+        "földmunka",
+        "állatgondozás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-2",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Gyári munkás",
+      "social_context": "munkásság",
+      "activities": [
+        "gépkiszolgálás",
+        "műszak"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-3",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Vasúti munkás",
+      "social_context": "munkásság",
+      "activities": [
+        "karbantartás",
+        "rakodás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-4",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Mozdonyvezető",
+      "social_context": "szakmunkás",
+      "activities": [
+        "vonatvezetés",
+        "ellenőrzés"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-5",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Jelzőőr",
+      "social_context": "szakmunkás",
+      "activities": [
+        "jelzőkezelés",
+        "szolgálat"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-6",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Bányász",
+      "social_context": "munkásság",
+      "activities": [
+        "kitermelés",
+        "műszak"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-7",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Dokkmunkás",
+      "social_context": "munkásság",
+      "activities": [
+        "rakodás",
+        "szállítás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-8",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Háztartási alkalmazott",
+      "social_context": "alkalmazotti réteg",
+      "activities": [
+        "takarítás",
+        "főzés"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-9",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Varrónő",
+      "social_context": "kézműves",
+      "activities": [
+        "varrás",
+        "javítás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-10",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Nyomdász",
+      "social_context": "szakmunkás",
+      "activities": [
+        "szedés",
+        "nyomtatás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-11",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Boltos",
+      "social_context": "kispolgárság",
+      "activities": [
+        "eladás",
+        "könyvelés"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-12",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Postás",
+      "social_context": "alkalmazotti réteg",
+      "activities": [
+        "kézbesítés",
+        "válogatás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-13",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Rendőr",
+      "social_context": "közszolgálat",
+      "activities": [
+        "járőrözés",
+        "jelentés"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-14",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Tanító",
+      "social_context": "értelmiség",
+      "activities": [
+        "oktatás",
+        "felkészülés"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-15",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Orvos",
+      "social_context": "értelmiség",
+      "activities": [
+        "vizsgálat",
+        "betegellátás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-16",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Ápoló",
+      "social_context": "egészségügyi alkalmazott",
+      "activities": [
+        "betegápolás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-17",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Mérnök",
+      "social_context": "értelmiség",
+      "activities": [
+        "tervezés",
+        "ellenőrzés"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-18",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Ügyvéd",
+      "social_context": "értelmiség",
+      "activities": [
+        "jogi ügyintézés"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-19",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Gyártulajdonos",
+      "social_context": "vállalkozói réteg",
+      "activities": [
+        "üzemirányítás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-1885-20",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "role": "Földbirtokos",
+      "social_context": "birtokos réteg",
+      "activities": [
+        "birtokigazgatás"
+      ],
+      "language_context": "Angol, regionális nyelvjárások",
+      "clothing_material_candidates": [
+        "gyapjú",
+        "pamut",
+        "len",
+        "bőr"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "review_required",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-1",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Mérnök",
+      "social_context": "szakember",
+      "activities": [
+        "tervezés",
+        "ellenőrzés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-2",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Szoftverfejlesztő",
+      "social_context": "szakember",
+      "activities": [
+        "programozás",
+        "tesztelés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-3",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Hálózati technikus",
+      "social_context": "szakember",
+      "activities": [
+        "telepítés",
+        "hibakeresés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-4",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Orvos",
+      "social_context": "szakember",
+      "activities": [
+        "vizsgálat",
+        "kezelés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-5",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Ápoló",
+      "social_context": "szakember",
+      "activities": [
+        "betegellátás"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-6",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Tanár",
+      "social_context": "szakember",
+      "activities": [
+        "oktatás"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-7",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Futár",
+      "social_context": "szolgáltatás",
+      "activities": [
+        "kézbesítés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-8",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Raktári dolgozó",
+      "social_context": "logisztika",
+      "activities": [
+        "árumozgatás"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-9",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Gazdálkodó",
+      "social_context": "mezőgazdaság",
+      "activities": [
+        "termelés",
+        "gépkezelés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-10",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Bolti dolgozó",
+      "social_context": "kereskedelem",
+      "activities": [
+        "eladás",
+        "árufeltöltés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-11",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Villanyszerelő",
+      "social_context": "szakember",
+      "activities": [
+        "telepítés",
+        "javítás"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-12",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Kutató",
+      "social_context": "szakember",
+      "activities": [
+        "kísérlet",
+        "elemzés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-13",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Rendőr",
+      "social_context": "közszolgálat",
+      "activities": [
+        "járőrözés"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    },
+    {
+      "id": "npc-2032-14",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "role": "Nyugdíjas",
+      "social_context": "nem foglalkozási státusz",
+      "activities": [
+        "háztartás",
+        "szabadidő"
+      ],
+      "language_context": "Modern angol és többnyelvű kommunikáció",
+      "clothing_material_candidates": [
+        "pamut",
+        "szintetikus szál",
+        "gyapjú"
+      ],
+      "individual_gender": null,
+      "individual_age": null,
+      "wealth": null,
+      "schedule": null,
+      "relationships": [],
+      "historical_status": "fictional_projection",
+      "notes": "Illustrative role, not a demographic frequency or mandatory social assignment. Clothing and language depend on individual circumstances."
+    }
+  ]
+}
