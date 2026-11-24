@@ -1,0 +1,7 @@
+(function(root){"use strict";
+function create(storage,npcs){const key="chronoverse.social.v1";const read=()=>JSON.parse(storage.getItem(key)||'{"version":1,"events":[]}');function history(branch,year){return read().events.filter(e=>e.branch===branch&&e.year<=year).sort((a,b)=>a.year-b.year);}
+function relationship(branch,year,a,b){let trust=0,meetings=0;for(const e of history(branch,year)){if(e.a===a&&e.b===b||e.a===b&&e.b===a){meetings++;trust=Math.max(-100,Math.min(100,trust+e.delta));}}return {trust,meetings,status:trust>=40?"friend":trust<=-40?"rival":"acquaintance"};}
+function interact(branch,year,a,b,kind){const people=npcs.snapshot(branch,year,12),ids=new Set(people.map(p=>p.id));if(!Number.isFinite(year)||a===b||!ids.has(a)||!ids.has(b))throw Error("Participants must be distinct living NPCs");const deltas={conversation:5,help:15,conflict:-15};if(!Object.prototype.hasOwnProperty.call(deltas,kind))throw Error("Unknown interaction");const d=read();d.events.push({branch,year,a,b,kind,delta:deltas[kind]});storage.setItem(key,JSON.stringify(d));return relationship(branch,year,a,b);}
+return {history,relationship,interact};}
+if(typeof module!=="undefined"&&module.exports)module.exports={create};else root.ChronoSocial={create};
+})(globalThis);
