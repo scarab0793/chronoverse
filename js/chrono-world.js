@@ -1,0 +1,6 @@
+(function(root){"use strict";
+function create(storage){const key="chronoverse.world.v1";function read(){return JSON.parse(storage.getItem(key)||'{"version":1,"events":[]}');}function append(branch,year,type,id,name,x,y){if(!branch||!Number.isFinite(year)||!id||!["build","destroy"].includes(type))throw Error("Invalid event");const d=read();if(type==="build"&&(!name.trim()||![x,y].every(v=>Number.isFinite(v)&&v>=0&&v<4000)))throw Error("Invalid building");if(type==="destroy"&&!snapshot(branch,year).some(b=>b.id===id))throw Error("Building absent");d.events.push({branch,year,type,id,name,x,y});storage.setItem(key,JSON.stringify(d));}
+function snapshot(branch,year){const map=new Map();read().events.filter(e=>e.branch===branch&&e.year<=year).sort((a,b)=>a.year-b.year).forEach(e=>{if(e.type==="build")map.set(e.id,e);else map.delete(e.id)});return [...map.values()];}
+return {snapshot,build(branch,year,name,x,y){const id=root.crypto.randomUUID();append(branch,year,"build",id,name,x,y);return id;},destroy(branch,year,id){append(branch,year,"destroy",id,"",0,0);},events(branch){return read().events.filter(e=>e.branch===branch);}};}
+if(typeof module!=="undefined"&&module.exports)module.exports={create};else root.ChronoWorld={create};
+})(globalThis);
