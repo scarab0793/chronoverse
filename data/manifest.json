@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "id": "historical_landmarks",
+      "path": "data/historical_landmarks.json",
+      "expected_records": 20,
+      "expected_currencies": 0
+    },
+    {
+      "id": "historical_events",
+      "path": "data/historical_events.json",
+      "expected_records": 40,
+      "expected_currencies": 0
+    },
+    {
+      "id": "historical_settlements",
+      "path": "data/historical_settlements.json",
+      "expected_records": 40,
+      "expected_currencies": 0
+    },
+    {
+      "id": "historical_landscape_corridors",
+      "path": "data/historical_landscape_corridors.json",
+      "expected_records": 12,
+      "expected_currencies": 0
+    },
+    {
+      "id": "epoch_landscape_profiles",
+      "path": "data/epoch_landscape_profiles.json",
+      "expected_records": 32,
+      "expected_currencies": 0
+    },
+    {
+      "id": "building_archetypes",
+      "path": "data/building_archetypes.json",
+      "expected_records": 48,
+      "expected_currencies": 0
+    },
+    {
+      "id": "npc_social_archetypes",
+      "path": "data/npc_social_archetypes.json",
+      "expected_records": 60,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chronoeconomy",
+      "path": "data/chronoeconomy.json",
+      "expected_records": 80,
+      "expected_currencies": 3
+    },
+    {
+      "id": "chronoindustry",
+      "path": "data/chronoindustry.json",
+      "expected_records": 54,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chronosurvival",
+      "path": "data/chronosurvival.json",
+      "expected_records": 60,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chronotransport",
+      "path": "data/chronotransport.json",
+      "expected_records": 46,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chronolaw",
+      "path": "data/chronolaw.json",
+      "expected_records": 66,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chronofamily",
+      "path": "data/chronofamily.json",
+      "expected_records": 40,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chronoculture",
+      "path": "data/chronoculture.json",
+      "expected_records": 88,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chrononature",
+      "path": "data/chrononature.json",
+      "expected_records": 92,
+      "expected_currencies": 0
+    },
+    {
+      "id": "chronocausality",
+      "path": "data/chronocausality.json",
+      "expected_records": 30,
+      "expected_currencies": 0
+    }
+  ],
+  "validation_errors": []
+}
