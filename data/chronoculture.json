@@ -1,0 +1,1400 @@
+{
+  "schema_version": 1,
+  "dataset": "chronoculture",
+  "notes": "Illustrative cultural catalogue, not verified prevalence or universal rules. Unknown prehistoric language is not reconstructed. Future entries are fictional projections. Clothing and customs vary by locality, class, individual and occasion.",
+  "rules": {
+    "suit": "Visual clothing adaptation does not alter face or body; select context-appropriate appearance without assuming universal dress.",
+    "lens": "Translation support depends on language evidence; unknown prehistoric speech cannot be treated as accurately translated.",
+    "npc": "No automatic hostility or acceptance based solely on a cultural category."
+  },
+  "records": [
+    {
+      "id": "culture--8999-language-1",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Ismeretlen beszélt nyelvek",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-language-2",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Gesztusok és vizuális kommunikáció",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-clothing-1",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Bőr alapú ruházat",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-clothing-2",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Növényi rostból készült kiegészítők",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-food-1",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Vadon gyűjtött növények",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-food-2",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Hal és vad",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-food-3",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Szezonális élelmiszerek",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-custom-1",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Közösségi tudásátadás",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-custom-2",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Szóbeli történetmesélés",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture--8999-custom-3",
+      "reference_epoch": -8999,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Tábori közösségi tevékenység",
+      "status": "speculative",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.britishmuseum.org/"
+      ]
+    },
+    {
+      "id": "culture-1435-language-1",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Középangol",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-language-2",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Latin egyházi és tudományos használat",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-language-3",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Francia egyes jogi és elit környezetekben",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-clothing-1",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Gyapjú tunika",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-clothing-2",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Len alsóruházat",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-clothing-3",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Köpeny",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-clothing-4",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Fejfedő",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-clothing-5",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Bőrcipő",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-food-1",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Kenyér",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-food-2",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Kása",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-food-3",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Sör",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-food-4",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Hüvelyesek",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-food-5",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Szezonális zöldségek",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-religion-1",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Vasárnapi istentisztelet",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-religion-2",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Karácsony",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-religion-3",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Húsvét",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-religion-4",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Böjti időszak",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-religion-5",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Helyi szentek ünnepei",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-education-1",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Tanoncoktatás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-education-2",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Egyházi oktatás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-education-3",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Írnoki képzés",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-leisure-1",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Piaci vásár",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-leisure-2",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Éneklés",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-leisure-3",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Tánc",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-leisure-4",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Társasjáték",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-custom-1",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Ranghoz igazodó megszólítás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-custom-2",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Vendégfogadás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1435-custom-3",
+      "reference_epoch": 1435,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Piaci alkudozás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-language-1",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Angol köznyelv",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-language-2",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Regionális nyelvjárások",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-language-3",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Hivatalos írott angol",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-clothing-1",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Gyapjúöltöny",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-clothing-2",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Pamut munkaruha",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-clothing-3",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Kötény",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-clothing-4",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Kalap",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-clothing-5",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Bőrcsizma",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-food-1",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Kenyér és vaj",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-food-2",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Tea",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-food-3",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Burgonya",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-food-4",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Húsételek",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-food-5",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Lekvár",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-religion-1",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Anglikán istentisztelet",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-religion-2",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Nonkonformista gyülekezet",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-religion-3",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Karácsony",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-religion-4",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Húsvét",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-education-1",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Elemi iskola",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-education-2",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Szakmai tanoncképzés",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-education-3",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Újságolvasás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-leisure-1",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Zenés színház",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-leisure-2",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Krikett",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-leisure-3",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Labdarúgás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-leisure-4",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Olvasókör",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-leisure-5",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Kirándulás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-custom-1",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Formális bemutatkozás",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-custom-2",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Névjegyhasználat",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-1885-custom-3",
+      "reference_epoch": 1885,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Munkahelyi hierarchia",
+      "status": "research_required",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-language-1",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Modern angol",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-language-2",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Többnyelvű kommunikáció",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-language-3",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "language",
+      "name": "Digitális üzenetváltás",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-clothing-1",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Hétköznapi ruházat",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-clothing-2",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Munkavédelmi ruházat",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-clothing-3",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "clothing",
+      "name": "Formális öltözet",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-food-1",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Szupermarketben vásárolt élelmiszer",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-food-2",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Nemzetközi konyha",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-food-3",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "food",
+      "name": "Készételek",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-religion-1",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Vallási sokszínűség",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-religion-2",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Vallási ünnepek",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-religion-3",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "religion",
+      "name": "Világi ünnepek",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-education-1",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Iskolai oktatás",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-education-2",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Online tanulás",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-education-3",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "education",
+      "name": "Szakmai továbbképzés",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-leisure-1",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Videójáték",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-leisure-2",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Streaming",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-leisure-3",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Sport",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-leisure-4",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "leisure",
+      "name": "Közösségi rendezvény",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-custom-1",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Digitális ügyintézés",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-custom-2",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Személyes tér tisztelete",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    },
+    {
+      "id": "culture-2032-custom-3",
+      "reference_epoch": 2032,
+      "region": "England / East Anglia",
+      "category": "custom",
+      "name": "Helyzetfüggő megszólítás",
+      "status": "fictional_projection",
+      "mandatory": false,
+      "frequency": null,
+      "individual_variation": true,
+      "source_leads": [
+        "https://www.bl.uk/",
+        "https://www.vam.ac.uk/",
+        "https://www.british-history.ac.uk/"
+      ]
+    }
+  ]
+}
