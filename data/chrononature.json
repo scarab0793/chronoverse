@@ -1,0 +1,1485 @@
+{
+  "schema_version": 1,
+  "dataset": "chrononature",
+  "notes": "Candidate catalogue only; inclusion does not imply presence in any epoch or locality. Introductions, extirpations, domestication, prehistoric climate and future projections require separate evidence. Weather categories are simulation labels, not historical observations.",
+  "source_leads": [
+    "https://www.nhm.ac.uk/",
+    "https://www.brc.ac.uk/",
+    "https://www.metoffice.gov.uk/",
+    "https://www.bgs.ac.uk/"
+  ],
+  "records": [
+    {
+      "id": "nature-fauna-1",
+      "category": "fauna",
+      "name": "Gímszarvas",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-2",
+      "category": "fauna",
+      "name": "Őz",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-3",
+      "category": "fauna",
+      "name": "Vaddisznó",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-4",
+      "category": "fauna",
+      "name": "Farkas",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-5",
+      "category": "fauna",
+      "name": "Vörös róka",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-6",
+      "category": "fauna",
+      "name": "Európai hód",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-7",
+      "category": "fauna",
+      "name": "Vidra",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-8",
+      "category": "fauna",
+      "name": "Mezei nyúl",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-9",
+      "category": "fauna",
+      "name": "Üregi nyúl",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-10",
+      "category": "fauna",
+      "name": "Vörös mókus",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-11",
+      "category": "fauna",
+      "name": "Szürke mókus",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-12",
+      "category": "fauna",
+      "name": "Borz",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-13",
+      "category": "fauna",
+      "name": "Sün",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-14",
+      "category": "fauna",
+      "name": "Barna medve",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-15",
+      "category": "fauna",
+      "name": "Őstulok",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-16",
+      "category": "fauna",
+      "name": "Ló",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-17",
+      "category": "fauna",
+      "name": "Juh",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-18",
+      "category": "fauna",
+      "name": "Szarvasmarha",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-19",
+      "category": "fauna",
+      "name": "Házi sertés",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-20",
+      "category": "fauna",
+      "name": "Kecske",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-21",
+      "category": "fauna",
+      "name": "Házi tyúk",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-22",
+      "category": "fauna",
+      "name": "Tőkés réce",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-23",
+      "category": "fauna",
+      "name": "Szürke gém",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-24",
+      "category": "fauna",
+      "name": "Fácán",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-25",
+      "category": "fauna",
+      "name": "Lazac",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-26",
+      "category": "fauna",
+      "name": "Csuka",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-27",
+      "category": "fauna",
+      "name": "Angolna",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-fauna-28",
+      "category": "fauna",
+      "name": "Hering",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-1",
+      "category": "flora",
+      "name": "Kocsányos tölgy",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-2",
+      "category": "flora",
+      "name": "Nyír",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-3",
+      "category": "flora",
+      "name": "Erdeifenyő",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-4",
+      "category": "flora",
+      "name": "Mogyoró",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-5",
+      "category": "flora",
+      "name": "Éger",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-6",
+      "category": "flora",
+      "name": "Fűz",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-7",
+      "category": "flora",
+      "name": "Bükk",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-8",
+      "category": "flora",
+      "name": "Szil",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-9",
+      "category": "flora",
+      "name": "Kőris",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-10",
+      "category": "flora",
+      "name": "Galagonya",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-11",
+      "category": "flora",
+      "name": "Kökény",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-12",
+      "category": "flora",
+      "name": "Szeder",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-13",
+      "category": "flora",
+      "name": "Csalán",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-14",
+      "category": "flora",
+      "name": "Nád",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-15",
+      "category": "flora",
+      "name": "Sás",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-16",
+      "category": "flora",
+      "name": "Tőzegmoha",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-17",
+      "category": "flora",
+      "name": "Páfrány",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-18",
+      "category": "flora",
+      "name": "Búza",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-19",
+      "category": "flora",
+      "name": "Árpa",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-20",
+      "category": "flora",
+      "name": "Zab",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-21",
+      "category": "flora",
+      "name": "Burgonya",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-flora-22",
+      "category": "flora",
+      "name": "Cukorrépa",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-1",
+      "category": "habitat",
+      "name": "Lombhullató erdő",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-2",
+      "category": "habitat",
+      "name": "Fenyves",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-3",
+      "category": "habitat",
+      "name": "Vegyes erdő",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-4",
+      "category": "habitat",
+      "name": "Nyílt gyep",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-5",
+      "category": "habitat",
+      "name": "Láp",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-6",
+      "category": "habitat",
+      "name": "Mocsár",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-7",
+      "category": "habitat",
+      "name": "Ártér",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-8",
+      "category": "habitat",
+      "name": "Folyó",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-9",
+      "category": "habitat",
+      "name": "Tó",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-10",
+      "category": "habitat",
+      "name": "Torkolat",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-11",
+      "category": "habitat",
+      "name": "Homokdűne",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-12",
+      "category": "habitat",
+      "name": "Sós mocsár",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-13",
+      "category": "habitat",
+      "name": "Szántóföld",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-14",
+      "category": "habitat",
+      "name": "Legelő",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-habitat-15",
+      "category": "habitat",
+      "name": "Városi zöldterület",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-1",
+      "category": "resources",
+      "name": "Édesvíz",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-2",
+      "category": "resources",
+      "name": "Faanyag",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-3",
+      "category": "resources",
+      "name": "Kovakő",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-4",
+      "category": "resources",
+      "name": "Agyag",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-5",
+      "category": "resources",
+      "name": "Homok",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-6",
+      "category": "resources",
+      "name": "Kavics",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-7",
+      "category": "resources",
+      "name": "Tőzeg",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-8",
+      "category": "resources",
+      "name": "Termőtalaj",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-9",
+      "category": "resources",
+      "name": "Nád",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-10",
+      "category": "resources",
+      "name": "Vadállomány",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-resources-11",
+      "category": "resources",
+      "name": "Halállomány",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-1",
+      "category": "weather",
+      "name": "Derült idő",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-2",
+      "category": "weather",
+      "name": "Felhős idő",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-3",
+      "category": "weather",
+      "name": "Eső",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-4",
+      "category": "weather",
+      "name": "Havazás",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-5",
+      "category": "weather",
+      "name": "Köd",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-6",
+      "category": "weather",
+      "name": "Fagy",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-7",
+      "category": "weather",
+      "name": "Hőhullám",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-8",
+      "category": "weather",
+      "name": "Vihar",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-9",
+      "category": "weather",
+      "name": "Aszály",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-10",
+      "category": "weather",
+      "name": "Áradás",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-11",
+      "category": "weather",
+      "name": "Erős szél",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-weather-12",
+      "category": "weather",
+      "name": "Jégeső",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-season-1",
+      "category": "season",
+      "name": "Tavasz",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-season-2",
+      "category": "season",
+      "name": "Nyár",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-season-3",
+      "category": "season",
+      "name": "Ősz",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    },
+    {
+      "id": "nature-season-4",
+      "category": "season",
+      "name": "Tél",
+      "region": "East Anglia",
+      "epoch_availability": {
+        "1435": null,
+        "1885": null,
+        "2032": null,
+        "-8999": null
+      },
+      "population_density": null,
+      "seasonal_parameters": null,
+      "source_status": "research_required",
+      "simulation_enabled": false
+    }
+  ]
+}
