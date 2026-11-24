@@ -1,0 +1,921 @@
+{
+  "schema_version": 1,
+  "dataset": "chronosurvival",
+  "notes": "Fictional simulation catalogue, not medical guidance. No clinical doses, diagnostic thresholds or treatment efficacy claims. Historical disease presence and care availability require local evidence.",
+  "rules": {
+    "suit": {
+      "fracture_repair": false,
+      "automatic_full_healing": false,
+      "blunt_trauma_possible": true,
+      "protection_guaranteed": false
+    },
+    "emergency_recall": {
+      "destination_year": 2032,
+      "lockout_hours": 48,
+      "success_guaranteed": false,
+      "permanent_death_possible": true
+    }
+  },
+  "records": [
+    {
+      "id": "needs-1",
+      "category": "needs",
+      "name": "Éhség",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "needs-2",
+      "category": "needs",
+      "name": "Szomjúság",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "needs-3",
+      "category": "needs",
+      "name": "Alváshiány",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "needs-4",
+      "category": "needs",
+      "name": "Kimerültség",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "needs-5",
+      "category": "needs",
+      "name": "Testhőmérséklet",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "needs-6",
+      "category": "needs",
+      "name": "Higiénia",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "needs-7",
+      "category": "needs",
+      "name": "Pihenés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "needs-8",
+      "category": "needs",
+      "name": "Mentális terhelés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-1",
+      "category": "hazards",
+      "name": "Hideg",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-2",
+      "category": "hazards",
+      "name": "Hőség",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-3",
+      "category": "hazards",
+      "name": "Eső és átnedvesedés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-4",
+      "category": "hazards",
+      "name": "Árvíz",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-5",
+      "category": "hazards",
+      "name": "Szennyezett ivóvíz",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-6",
+      "category": "hazards",
+      "name": "Romlott élelmiszer",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-7",
+      "category": "hazards",
+      "name": "Füst",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-8",
+      "category": "hazards",
+      "name": "Rossz levegőjű épület",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-9",
+      "category": "hazards",
+      "name": "Állati támadás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-10",
+      "category": "hazards",
+      "name": "Esés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-11",
+      "category": "hazards",
+      "name": "Munkahelyi baleset",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "hazards-12",
+      "category": "hazards",
+      "name": "Tengeri vihar",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-1",
+      "category": "injuries",
+      "name": "Horzsolás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-2",
+      "category": "injuries",
+      "name": "Vágott seb",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-3",
+      "category": "injuries",
+      "name": "Zúzódás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-4",
+      "category": "injuries",
+      "name": "Rándulás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-5",
+      "category": "injuries",
+      "name": "Csonttörés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-6",
+      "category": "injuries",
+      "name": "Égés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-7",
+      "category": "injuries",
+      "name": "Fejsérülés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-8",
+      "category": "injuries",
+      "name": "Vérvesztés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-9",
+      "category": "injuries",
+      "name": "Szúrt seb",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-10",
+      "category": "injuries",
+      "name": "Áthatoló sérülés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-11",
+      "category": "injuries",
+      "name": "Belső sérülés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "injuries-12",
+      "category": "injuries",
+      "name": "Fertőzött seb",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-1",
+      "category": "illnesses",
+      "name": "Légúti fertőzés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-2",
+      "category": "illnesses",
+      "name": "Hasmenéses megbetegedés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-3",
+      "category": "illnesses",
+      "name": "Kiszáradás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-4",
+      "category": "illnesses",
+      "name": "Alultápláltság",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-5",
+      "category": "illnesses",
+      "name": "Pestis",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-6",
+      "category": "illnesses",
+      "name": "Himlő",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-7",
+      "category": "illnesses",
+      "name": "Tuberkulózis",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-8",
+      "category": "illnesses",
+      "name": "Kolera",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-9",
+      "category": "illnesses",
+      "name": "Tífusz",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-10",
+      "category": "illnesses",
+      "name": "Influenza",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-11",
+      "category": "illnesses",
+      "name": "Tetanusz",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "illnesses-12",
+      "category": "illnesses",
+      "name": "Fogászati fertőzés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-1",
+      "category": "care",
+      "name": "Pihenés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-2",
+      "category": "care",
+      "name": "Tiszta ivóvíz",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-3",
+      "category": "care",
+      "name": "Sebellátás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-4",
+      "category": "care",
+      "name": "Rögzítés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-5",
+      "category": "care",
+      "name": "Orvosi vizsgálat",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-6",
+      "category": "care",
+      "name": "Kórházi ellátás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-7",
+      "category": "care",
+      "name": "Fájdalomcsillapítás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "care-8",
+      "category": "care",
+      "name": "Antibiotikumos ellátás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-1",
+      "category": "suit",
+      "name": "Korlátozott vágásvédelem",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-2",
+      "category": "suit",
+      "name": "Korlátozott szúrásvédelem",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-3",
+      "category": "suit",
+      "name": "Korlátozott lövedékvédelem",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-4",
+      "category": "suit",
+      "name": "Tompa trauma fennmaradása",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-5",
+      "category": "suit",
+      "name": "Fájdalomcsillapító modul",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-6",
+      "category": "suit",
+      "name": "Antibiotikum modul",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-7",
+      "category": "suit",
+      "name": "Egészségügyi állapotjelzés",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    },
+    {
+      "id": "suit-8",
+      "category": "suit",
+      "name": "Vészhelyzeti idővisszahívás",
+      "severity_levels": [
+        "mild",
+        "moderate",
+        "severe",
+        "critical"
+      ],
+      "simulation_parameters": null,
+      "clinical_guidance": false,
+      "availability_by_epoch": null,
+      "status": "game_design_template"
+    }
+  ]
+}
