@@ -1,0 +1,1105 @@
+{
+  "schema_version": 1,
+  "dataset": "chronolaw",
+  "notes": "Research catalogue only. No invented historical laws or penalties. Mesolithic topics are hypothetical social mechanics, not documented legal institutions. Future law is fictional. Jurisdiction, effective dates and individual status must be validated before enforcement.",
+  "records": [
+    {
+      "id": "law--8999-1",
+      "reference_epoch": -8999,
+      "jurisdiction": "community",
+      "topic": "Erőforrások megosztása",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [],
+      "status": "speculative_social_model",
+      "enforceable": false
+    },
+    {
+      "id": "law--8999-2",
+      "reference_epoch": -8999,
+      "jurisdiction": "community",
+      "topic": "Táborhely használata",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [],
+      "status": "speculative_social_model",
+      "enforceable": false
+    },
+    {
+      "id": "law--8999-3",
+      "reference_epoch": -8999,
+      "jurisdiction": "community",
+      "topic": "Közösségi konfliktuskezelés",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [],
+      "status": "speculative_social_model",
+      "enforceable": false
+    },
+    {
+      "id": "law--8999-4",
+      "reference_epoch": -8999,
+      "jurisdiction": "community",
+      "topic": "Csoporttagság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [],
+      "status": "speculative_social_model",
+      "enforceable": false
+    },
+    {
+      "id": "law--8999-5",
+      "reference_epoch": -8999,
+      "jurisdiction": "community",
+      "topic": "Személyes tárgyak használata",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [],
+      "status": "speculative_social_model",
+      "enforceable": false
+    },
+    {
+      "id": "law--8999-6",
+      "reference_epoch": -8999,
+      "jurisdiction": "community",
+      "topic": "Közösségi döntéshozatal",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [],
+      "status": "speculative_social_model",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-1",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Királyi hatalom",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-2",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Parlament",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-3",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Királyi bíróság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-4",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Helyi békebíró",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-5",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Grófsági igazgatás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-6",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Városi kiváltságok",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-7",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Birtokbíróság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-8",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Földbirtoklás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-9",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Szokásjogi földhasználat",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-10",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Bérleti viszony",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-11",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Öröklés",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-12",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Végrendelet",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-13",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Házasság egyházi jog szerint",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-14",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Egyházi bíróság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-15",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Piaci jogok",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-16",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Céhszabályok",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-17",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Út- és vámjogok",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-18",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Adóztatás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-19",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Adósság és szerződés",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1435-20",
+      "reference_epoch": 1435,
+      "jurisdiction": "England",
+      "topic": "Lopás és vagyonvédelem",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-1",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Alkotmányos monarchia",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-2",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Parlament",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-3",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Helyi önkormányzat",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-4",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Rendőrség",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-5",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Békebíróság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-6",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Polgári bíróság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-7",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Büntetőbíróság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-8",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Földtulajdon",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-9",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Bérleti szerződés",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-10",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Öröklés",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-11",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Végrendelet",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-12",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Házasság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-13",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Anyakönyvezés",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-14",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Munkaviszony",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-15",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Gyári szabályozás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-16",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Tankötelezettség",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-17",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Közegészségügy",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-18",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Választójog",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-19",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Szegényügyi ellátás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-1885-20",
+      "reference_epoch": 1885,
+      "jurisdiction": "England and Wales",
+      "topic": "Adóztatás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "historical_research_required",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-1",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Alkotmányos monarchia",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-2",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Parlament",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-3",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Helyi önkormányzat",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-4",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Rendőrség",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-5",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Bíróságok",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-6",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Tulajdonjog",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-7",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Lakásbérlet",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-8",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Öröklés",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-9",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Végrendelet",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-10",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Házasság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-11",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Állampolgárság",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-12",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Bevándorlási státusz",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-13",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Munkajog",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-14",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Adatvédelem",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-15",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Adóztatás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-16",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Közlekedési szabályok",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-17",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Környezetvédelem",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-18",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Fogyasztóvédelem",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-19",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Szociális ellátás",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    },
+    {
+      "id": "law-2032-20",
+      "reference_epoch": 2032,
+      "jurisdiction": "England and Wales (fictional projection)",
+      "topic": "Szerződések",
+      "rule_text": null,
+      "eligibility_conditions": null,
+      "penalty": null,
+      "authority": null,
+      "source_leads": [
+        "https://www.legislation.gov.uk/",
+        "https://www.nationalarchives.gov.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "status": "fictional_projection",
+      "enforceable": false
+    }
+  ]
+}
