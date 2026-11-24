@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "dataset": "chronocausality",
+  "records": [
+    {
+      "id": "causal-intervention-1",
+      "category": "intervention",
+      "name": "Tárgy áthelyezése",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-2",
+      "category": "intervention",
+      "name": "Épület építése",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-3",
+      "category": "intervention",
+      "name": "Épület pusztulása",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-4",
+      "category": "intervention",
+      "name": "Tulajdonosváltás",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-5",
+      "category": "intervention",
+      "name": "Technológia bevezetése",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-6",
+      "category": "intervention",
+      "name": "Információ átadása",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-7",
+      "category": "intervention",
+      "name": "Személy megmentése",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-8",
+      "category": "intervention",
+      "name": "Kereskedelmi kapcsolat létrehozása",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-9",
+      "category": "intervention",
+      "name": "Település fejlődésének módosítása",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-intervention-10",
+      "category": "intervention",
+      "name": "Környezeti változtatás",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-1",
+      "category": "propagation",
+      "name": "Tulajdonlánc",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-2",
+      "category": "propagation",
+      "name": "Leszármazási lánc",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-3",
+      "category": "propagation",
+      "name": "Technológiai terjedés",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-4",
+      "category": "propagation",
+      "name": "Gazdasági következmény",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-5",
+      "category": "propagation",
+      "name": "Épített környezet",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-6",
+      "category": "propagation",
+      "name": "Ökológiai következmény",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-7",
+      "category": "propagation",
+      "name": "NPC emlékezet",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-propagation-8",
+      "category": "propagation",
+      "name": "Intézményi változás",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-timeline-1",
+      "category": "timeline",
+      "name": "Eredeti idővonal",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-timeline-2",
+      "category": "timeline",
+      "name": "Alternatív ág",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-timeline-3",
+      "category": "timeline",
+      "name": "Időfodor",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-timeline-4",
+      "category": "timeline",
+      "name": "Idővonal összeomlása",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-timeline-5",
+      "category": "timeline",
+      "name": "Időhorgony fennmaradása",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-timeline-6",
+      "category": "timeline",
+      "name": "Időhorgony elvesztése",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-conflict-1",
+      "category": "conflict",
+      "name": "Ismételt beavatkozás",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-conflict-2",
+      "category": "conflict",
+      "name": "Saját korábbi énnel találkozás",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-conflict-3",
+      "category": "conflict",
+      "name": "Saját korábbi én megmentése",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-conflict-4",
+      "category": "conflict",
+      "name": "Ellentmondó tulajdonrekord",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-conflict-5",
+      "category": "conflict",
+      "name": "Megszűnt célobjektum",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    },
+    {
+      "id": "causal-conflict-6",
+      "category": "conflict",
+      "name": "Érvénytelen érkezési pont",
+      "status": "design_template",
+      "effect_magnitude": null,
+      "propagation_delay": null
+    }
+  ],
+  "rules": {
+    "branch_isolation": true,
+    "anchor_same_timeline_only": true,
+    "anchor_valid_from_placement": true,
+    "anchor_requires_surviving_object": true,
+    "repeat_intervention_risk": "increasing",
+    "collapse_possible_after_attempts": [
+      4,
+      5
+    ],
+    "collapse_threshold_status": "design guideline, not deterministic guarantee",
+    "self_rescue": "Later self dissolves; control returns to rescued earlier self",
+    "multiplayer": {
+      "shared_elapsed_clock": true,
+      "ripple_notification": true,
+      "public_individual_rollback": false,
+      "private_rollback_requires_all_active_players": true,
+      "single_player_reload": true
+    }
+  },
+  "notes": "Game design rules and templates, not verified historical causal claims. No actual world propagation engine in this file."
+}
