@@ -1,0 +1,6 @@
+(function(root){"use strict";
+const key="chronoverse.save.v1";
+function valid(s){return s&&Number.isFinite(s.year)&&Number.isFinite(s.lat)&&Math.abs(s.lat)<=90&&Number.isFinite(s.lon)&&Math.abs(s.lon)<=180&&Number.isFinite(s.charge)&&s.charge>=0&&s.charge<=1&&Number.isSafeInteger(s.jumps)&&s.jumps>=0&&Array.isArray(s.anchors)&&s.anchors.every(a=>a&&Number.isFinite(a.year)&&Number.isFinite(a.lat)&&Math.abs(a.lat)<=90&&Number.isFinite(a.lon)&&Math.abs(a.lon)<=180);}
+function create(storage){return Object.freeze({save(state,tier){if(!valid(state)||!Number.isInteger(tier)||tier<0||tier>3)throw Error("Invalid state");const data={version:1,timeline:"local-main",savedAt:new Date().toISOString(),state,tier};storage.setItem(key,JSON.stringify(data));return data.savedAt;},load(){const raw=storage.getItem(key);if(raw===null)return null;const d=JSON.parse(raw);if(d.version!==1||d.timeline!=="local-main"||!valid(d.state)||!Number.isInteger(d.tier)||d.tier<0||d.tier>3)throw Error("Invalid or unsupported save");return d;},clear(){storage.removeItem(key);}});}
+if(typeof module!=="undefined"&&module.exports)module.exports={create,valid};else root.ChronoPersistence={create};
+})(globalThis);
