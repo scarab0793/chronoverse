@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "dataset": "epoch_landscape_profiles",
+  "calendar": "astronomical",
+  "notes": "Qualitative scenario profiles only. No historical raster, polygons, elevations or safe landing evidence. 2032 is fictional projection.",
+  "records": [
+    {
+      "id": "fens--8999",
+      "region_id": "fens",
+      "name": "The Fens",
+      "year": -8999,
+      "reference": {
+        "lat": 52.55,
+        "lon": 0.2
+      },
+      "description": "Posztglaciális vízrajz; helyi állapot ismeretlen",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "fens-1435",
+      "region_id": "fens",
+      "name": "The Fens",
+      "year": 1435,
+      "reference": {
+        "lat": 52.55,
+        "lon": 0.2
+      },
+      "description": "Mocsarak, lápok és vízi közlekedés; középkori lecsapolás helyenként",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "fens-1885",
+      "region_id": "fens",
+      "name": "The Fens",
+      "year": 1885,
+      "reference": {
+        "lat": 52.55,
+        "lon": 0.2
+      },
+      "description": "Kiterjedt mezőgazdasági vízrendezés és csatornák",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "fens-2032",
+      "region_id": "fens",
+      "name": "The Fens",
+      "year": 2032,
+      "reference": {
+        "lat": 52.55,
+        "lon": 0.2
+      },
+      "description": "Modern szabályozott vízrendszer feltételezett folytatása",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "broads--8999",
+      "region_id": "broads",
+      "name": "Norfolk Broads",
+      "year": -8999,
+      "reference": {
+        "lat": 52.7,
+        "lon": 1.5
+      },
+      "description": "Korai holocén táj; nem azonos a mai tavakkal",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "broads-1435",
+      "region_id": "broads",
+      "name": "Norfolk Broads",
+      "year": 1435,
+      "reference": {
+        "lat": 52.7,
+        "lon": 1.5
+      },
+      "description": "Elárasztott középkori tőzegkitermelő gödrök és vízi utak",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "broads-1885",
+      "region_id": "broads",
+      "name": "Norfolk Broads",
+      "year": 1885,
+      "reference": {
+        "lat": 52.7,
+        "lon": 1.5
+      },
+      "description": "Hajózható vízrendszer és mezőgazdasági táj",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "broads-2032",
+      "region_id": "broads",
+      "name": "Norfolk Broads",
+      "year": 2032,
+      "reference": {
+        "lat": 52.7,
+        "lon": 1.5
+      },
+      "description": "Modern vízi táj extrapolációja",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "yarmouth--8999",
+      "region_id": "yarmouth",
+      "name": "Great Yarmouth",
+      "year": -8999,
+      "reference": {
+        "lat": 52.608,
+        "lon": 1.728
+      },
+      "description": "Partvonal és üledékviszonyok rekonstruálandók",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "yarmouth-1435",
+      "region_id": "yarmouth",
+      "name": "Great Yarmouth",
+      "year": 1435,
+      "reference": {
+        "lat": 52.608,
+        "lon": 1.728
+      },
+      "description": "Középkori kikötőváros és homokpadok",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "yarmouth-1885",
+      "region_id": "yarmouth",
+      "name": "Great Yarmouth",
+      "year": 1885,
+      "reference": {
+        "lat": 52.608,
+        "lon": 1.728
+      },
+      "description": "Kikötő, vasút és üdülővárosi fejlődés",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "yarmouth-2032",
+      "region_id": "yarmouth",
+      "name": "Great Yarmouth",
+      "year": 2032,
+      "reference": {
+        "lat": 52.608,
+        "lon": 1.728
+      },
+      "description": "Modern kikötőváros feltételezett folytatása",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "norwich--8999",
+      "region_id": "norwich",
+      "name": "Norwich",
+      "year": -8999,
+      "reference": {
+        "lat": 52.631,
+        "lon": 1.297
+      },
+      "description": "Őskori táj; településnyomok külön ellenőrzendők",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "norwich-1435",
+      "region_id": "norwich",
+      "name": "Norwich",
+      "year": 1435,
+      "reference": {
+        "lat": 52.631,
+        "lon": 1.297
+      },
+      "description": "Középkori város, vár, katedrális és piac",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "norwich-1885",
+      "region_id": "norwich",
+      "name": "Norwich",
+      "year": 1885,
+      "reference": {
+        "lat": 52.631,
+        "lon": 1.297
+      },
+      "description": "Viktoriánus város, vasút és ipar",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "norwich-2032",
+      "region_id": "norwich",
+      "name": "Norwich",
+      "year": 2032,
+      "reference": {
+        "lat": 52.631,
+        "lon": 1.297
+      },
+      "description": "Modern város feltételezett folytatása",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "thetford--8999",
+      "region_id": "thetford",
+      "name": "Thetford",
+      "year": -8999,
+      "reference": {
+        "lat": 52.414,
+        "lon": 0.748
+      },
+      "description": "Korai holocén táj; helyi növényzet bizonytalan",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "thetford-1435",
+      "region_id": "thetford",
+      "name": "Thetford",
+      "year": 1435,
+      "reference": {
+        "lat": 52.414,
+        "lon": 0.748
+      },
+      "description": "Középkori település és vallási épületek",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "thetford-1885",
+      "region_id": "thetford",
+      "name": "Thetford",
+      "year": 1885,
+      "reference": {
+        "lat": 52.414,
+        "lon": 0.748
+      },
+      "description": "Vasúti kapcsolat és történelmi városmag",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "thetford-2032",
+      "region_id": "thetford",
+      "name": "Thetford",
+      "year": 2032,
+      "reference": {
+        "lat": 52.414,
+        "lon": 0.748
+      },
+      "description": "Modern település feltételezett folytatása",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "orford--8999",
+      "region_id": "orford",
+      "name": "Orford Ness",
+      "year": -8999,
+      "reference": {
+        "lat": 52.08,
+        "lon": 1.56
+      },
+      "description": "Partvonal nem rekonstruált",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "orford-1435",
+      "region_id": "orford",
+      "name": "Orford Ness",
+      "year": 1435,
+      "reference": {
+        "lat": 52.08,
+        "lon": 1.56
+      },
+      "description": "Változó kavicsos part és kikötői környezet",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "orford-1885",
+      "region_id": "orford",
+      "name": "Orford Ness",
+      "year": 1885,
+      "reference": {
+        "lat": 52.08,
+        "lon": 1.56
+      },
+      "description": "Kavicsnyelv és változó torkolat",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "orford-2032",
+      "region_id": "orford",
+      "name": "Orford Ness",
+      "year": 2032,
+      "reference": {
+        "lat": 52.08,
+        "lon": 1.56
+      },
+      "description": "Modern parti táj extrapolációja",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "lynn--8999",
+      "region_id": "lynn",
+      "name": "King's Lynn",
+      "year": -8999,
+      "reference": {
+        "lat": 52.754,
+        "lon": 0.397
+      },
+      "description": "Korai holocén partvidék; pontos helyzet ismeretlen",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "lynn-1435",
+      "region_id": "lynn",
+      "name": "King's Lynn",
+      "year": 1435,
+      "reference": {
+        "lat": 52.754,
+        "lon": 0.397
+      },
+      "description": "Bishop's Lynn, középkori kereskedelmi kikötő",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "lynn-1885",
+      "region_id": "lynn",
+      "name": "King's Lynn",
+      "year": 1885,
+      "reference": {
+        "lat": 52.754,
+        "lon": 0.397
+      },
+      "description": "Vasút, dokkok és kereskedelmi város",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "lynn-2032",
+      "region_id": "lynn",
+      "name": "King's Lynn",
+      "year": 2032,
+      "reference": {
+        "lat": 52.754,
+        "lon": 0.397
+      },
+      "description": "Modern kikötő feltételezett folytatása",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "ely--8999",
+      "region_id": "ely",
+      "name": "Ely",
+      "year": -8999,
+      "reference": {
+        "lat": 52.399,
+        "lon": 0.263
+      },
+      "description": "Korai holocén táj; vízrajz rekonstruálandó",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "ely-1435",
+      "region_id": "ely",
+      "name": "Ely",
+      "year": 1435,
+      "reference": {
+        "lat": 52.399,
+        "lon": 0.263
+      },
+      "description": "Katedrális és a mocsaras környezetből kiemelkedő település",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "ely-1885",
+      "region_id": "ely",
+      "name": "Ely",
+      "year": 1885,
+      "reference": {
+        "lat": 52.399,
+        "lon": 0.263
+      },
+      "description": "Lecsapolt környezet, vasút és mezőgazdaság",
+      "status": "unverified_reconstruction_outline",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "ely-2032",
+      "region_id": "ely",
+      "name": "Ely",
+      "year": 2032,
+      "reference": {
+        "lat": 52.399,
+        "lon": 0.263
+      },
+      "description": "Modern város és szabályozott vízrendszer extrapolációja",
+      "status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.british-history.ac.uk/"
+      ],
+      "geometry": null,
+      "landing_safety": "unknown"
+    }
+  ]
+}
