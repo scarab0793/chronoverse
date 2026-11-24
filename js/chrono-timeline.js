@@ -1,0 +1,6 @@
+(function(root){"use strict";
+const clone=x=>JSON.parse(JSON.stringify(x));
+function create(storage){const key="chronoverse.timelines.v1";function read(){const raw=storage.getItem(key);return raw?JSON.parse(raw):{version:1,branches:[]};}function write(d){storage.setItem(key,JSON.stringify(d));}
+return {list(){return clone(read().branches)},fork(parent,state,tier){const d=read();if(parent!=="local-main"&&!d.branches.some(b=>b.id===parent))throw Error("Unknown parent");const b={id:root.crypto.randomUUID(),parent,state:clone(state),tier,events:[],collapsed:false};d.branches.push(b);write(d);return clone(b);},record(id,site,year,description){const d=read(),b=d.branches.find(x=>x.id===id);if(!b||b.collapsed)throw Error("Inactive branch");if(!site.trim()||!description.trim()||!Number.isFinite(year))throw Error("Invalid event");const n=b.events.filter(e=>e.site===site&&e.year===year).length+1;const risk=Math.min(1,n/5);const e={site,year,description,attempt:n,risk,ripple:{fromYear:year,status:"pending_simulation"}};b.events.push(e);if(n>=4&&Math.random()<risk)b.collapsed=true;write(d);return clone(b);}};}
+if(typeof module!=="undefined"&&module.exports)module.exports={create};else root.ChronoTimeline={create};
+})(globalThis);
