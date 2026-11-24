@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "dataset": "chronofamily",
+  "records": [
+    {
+      "id": "kinship-1",
+      "category": "kinship",
+      "name": "Szülő",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "kinship-2",
+      "category": "kinship",
+      "name": "Gyermek",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "kinship-3",
+      "category": "kinship",
+      "name": "Testvér",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "kinship-4",
+      "category": "kinship",
+      "name": "Nagyszülő",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "kinship-5",
+      "category": "kinship",
+      "name": "Unoka",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "kinship-6",
+      "category": "kinship",
+      "name": "Nagynéni vagy nagybácsi",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "kinship-7",
+      "category": "kinship",
+      "name": "Unokatestvér",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "kinship-8",
+      "category": "kinship",
+      "name": "Örökbefogadó szülő",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-1",
+      "category": "social",
+      "name": "Ismerős",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-2",
+      "category": "social",
+      "name": "Barát",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-3",
+      "category": "social",
+      "name": "Bizalmas",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-4",
+      "category": "social",
+      "name": "Szomszéd",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-5",
+      "category": "social",
+      "name": "Munkatárs",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-6",
+      "category": "social",
+      "name": "Üzleti partner",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-7",
+      "category": "social",
+      "name": "Mentor",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-8",
+      "category": "social",
+      "name": "Tanítvány",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-9",
+      "category": "social",
+      "name": "Rivális",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "social-10",
+      "category": "social",
+      "name": "Ellenséges kapcsolat",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-1",
+      "category": "family_events",
+      "name": "Születés",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-2",
+      "category": "family_events",
+      "name": "Örökbefogadás",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-3",
+      "category": "family_events",
+      "name": "Házasság",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-4",
+      "category": "family_events",
+      "name": "Különválás",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-5",
+      "category": "family_events",
+      "name": "Halál",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-6",
+      "category": "family_events",
+      "name": "Költözés",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-7",
+      "category": "family_events",
+      "name": "Öröklés",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "family_events-8",
+      "category": "family_events",
+      "name": "Háztartás alapítása",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-1",
+      "category": "memory",
+      "name": "Első találkozás",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-2",
+      "category": "memory",
+      "name": "Beszélgetés",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-3",
+      "category": "memory",
+      "name": "Ajándék",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-4",
+      "category": "memory",
+      "name": "Segítség",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-5",
+      "category": "memory",
+      "name": "Ígéret",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-6",
+      "category": "memory",
+      "name": "Konfliktus",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-7",
+      "category": "memory",
+      "name": "Közös munka",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "memory-8",
+      "category": "memory",
+      "name": "Közös utazás",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "property-1",
+      "category": "property",
+      "name": "Lakóház",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "property-2",
+      "category": "property",
+      "name": "Földterület",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "property-3",
+      "category": "property",
+      "name": "Műhely",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "property-4",
+      "category": "property",
+      "name": "Személyes tárgy",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "property-5",
+      "category": "property",
+      "name": "Családi dokumentum",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    },
+    {
+      "id": "property-6",
+      "category": "property",
+      "name": "Vállalkozás",
+      "status": "simulation_template",
+      "epoch_constraints": null
+    }
+  ],
+  "rules": {
+    "identity": "Stable character ID scoped to timeline branch",
+    "genealogy": "Parent links must be acyclic; biological and adoptive links distinct",
+    "relationships": "Directional trust and memories; mutual relationships require independent consent",
+    "inheritance": "Requires applicable local law and ownership history",
+    "death": "Character ends; descendants and property history persist",
+    "branching": "Branch changes never overwrite another branch",
+    "memory": "Record event date, experienced sequence, participants and branch; no automatic knowledge of future events"
+  },
+  "notes": "Templates, not verified historical demographic or legal rules. No automatic marriage, inheritance or parentage inference."
+}
