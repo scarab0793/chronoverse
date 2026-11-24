@@ -1,0 +1,1008 @@
+{
+  "schema_version": 1,
+  "dataset": "chronoindustry",
+  "notes": "Reference epochs are scenario labels, not unlock dates. Dependencies are partial. External inputs must be acquired separately. Unknown quantities, durations and energy must not be treated as zero.",
+  "records": [
+    {
+      "id": "gather",
+      "name": "Növénygyűjtés",
+      "reference_epoch": -8999,
+      "inputs": [
+        "vadon termő növény"
+      ],
+      "output": "élelem",
+      "dependencies": [],
+      "facility": "kézi gyűjtés",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "wood",
+      "name": "Faanyag gyűjtése",
+      "reference_epoch": -8999,
+      "inputs": [
+        "fa"
+      ],
+      "output": "tűzifa",
+      "dependencies": [],
+      "facility": "kézi munka",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "flint",
+      "name": "Kőpattintás",
+      "reference_epoch": -8999,
+      "inputs": [
+        "kovakő"
+      ],
+      "output": "kőeszköz",
+      "dependencies": [],
+      "facility": "kőütő",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "hide",
+      "name": "Bőr előkészítése",
+      "reference_epoch": -8999,
+      "inputs": [
+        "nyers bőr"
+      ],
+      "output": "feldolgozott bőr",
+      "dependencies": [
+        "flint"
+      ],
+      "facility": "kaparó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "cord",
+      "name": "Rostfonás",
+      "reference_epoch": -8999,
+      "inputs": [
+        "növényi rost"
+      ],
+      "output": "zsinór",
+      "dependencies": [],
+      "facility": "kézi munka",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "fish",
+      "name": "Halászat",
+      "reference_epoch": -8999,
+      "inputs": [
+        "halállomány"
+      ],
+      "output": "hal",
+      "dependencies": [
+        "cord"
+      ],
+      "facility": "halászeszköz",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "fire",
+      "name": "Tűzfenntartás",
+      "reference_epoch": -8999,
+      "inputs": [
+        "tűzifa"
+      ],
+      "output": "hő",
+      "dependencies": [
+        "wood"
+      ],
+      "facility": "tűzhely",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "shelter",
+      "name": "Menedéképítés",
+      "reference_epoch": -8999,
+      "inputs": [
+        "fa",
+        "bőr",
+        "zsinór"
+      ],
+      "output": "menedék",
+      "dependencies": [
+        "hide",
+        "cord"
+      ],
+      "facility": "kéziszerszám",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "farm",
+      "name": "Gabonatermesztés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "vetőmag",
+        "föld"
+      ],
+      "output": "gabona",
+      "dependencies": [],
+      "facility": "eke",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "mill",
+      "name": "Gabonaőrlés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "gabona"
+      ],
+      "output": "liszt",
+      "dependencies": [
+        "farm"
+      ],
+      "facility": "malom",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "bread",
+      "name": "Kenyérsütés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "liszt",
+        "víz",
+        "tüzelő"
+      ],
+      "output": "kenyér",
+      "dependencies": [
+        "mill"
+      ],
+      "facility": "kemence",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "sheep",
+      "name": "Juhtartás",
+      "reference_epoch": 1435,
+      "inputs": [
+        "takarmány",
+        "legelő"
+      ],
+      "output": "gyapjú",
+      "dependencies": [],
+      "facility": "állattartó telep",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "spin",
+      "name": "Fonás",
+      "reference_epoch": 1435,
+      "inputs": [
+        "gyapjú"
+      ],
+      "output": "fonal",
+      "dependencies": [
+        "sheep"
+      ],
+      "facility": "orsó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "weave",
+      "name": "Szövés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "fonal"
+      ],
+      "output": "szövet",
+      "dependencies": [
+        "spin"
+      ],
+      "facility": "szövőszék",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "tailor",
+      "name": "Ruhakészítés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "szövet"
+      ],
+      "output": "ruha",
+      "dependencies": [
+        "weave"
+      ],
+      "facility": "varróeszköz",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "clay",
+      "name": "Agyagkitermelés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "agyaglelőhely"
+      ],
+      "output": "agyag",
+      "dependencies": [],
+      "facility": "ásó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "pottery",
+      "name": "Fazekasság",
+      "reference_epoch": 1435,
+      "inputs": [
+        "agyag",
+        "tüzelő"
+      ],
+      "output": "edény",
+      "dependencies": [
+        "clay"
+      ],
+      "facility": "égetőkemence",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "brick",
+      "name": "Téglagyártás",
+      "reference_epoch": 1435,
+      "inputs": [
+        "agyag",
+        "tüzelő"
+      ],
+      "output": "tégla",
+      "dependencies": [
+        "clay"
+      ],
+      "facility": "égetőkemence",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "timber",
+      "name": "Fakitermelés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "erdő"
+      ],
+      "output": "rönk",
+      "dependencies": [],
+      "facility": "fejsze",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "saw",
+      "name": "Fűrészelés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "rönk"
+      ],
+      "output": "deszka",
+      "dependencies": [
+        "timber"
+      ],
+      "facility": "fűrész",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "charcoal",
+      "name": "Faszénégetés",
+      "reference_epoch": 1435,
+      "inputs": [
+        "fa"
+      ],
+      "output": "faszén",
+      "dependencies": [
+        "timber"
+      ],
+      "facility": "szénégető hely",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "ore",
+      "name": "Ércbányászat",
+      "reference_epoch": 1435,
+      "inputs": [
+        "érclelőhely"
+      ],
+      "output": "vasérc",
+      "dependencies": [],
+      "facility": "bányászszerszám",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "iron",
+      "name": "Vas előállítása",
+      "reference_epoch": 1435,
+      "inputs": [
+        "vasérc",
+        "faszén"
+      ],
+      "output": "vas",
+      "dependencies": [
+        "ore",
+        "charcoal"
+      ],
+      "facility": "kohó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "smith",
+      "name": "Kovácsolás",
+      "reference_epoch": 1435,
+      "inputs": [
+        "vas",
+        "tüzelő"
+      ],
+      "output": "vasszerszám",
+      "dependencies": [
+        "iron"
+      ],
+      "facility": "kovácsműhely",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "masonry",
+      "name": "Falazás",
+      "reference_epoch": 1435,
+      "inputs": [
+        "tégla",
+        "kő",
+        "habarcs"
+      ],
+      "output": "fal",
+      "dependencies": [
+        "brick"
+      ],
+      "facility": "építőszerszám",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "carpentry",
+      "name": "Ácsmunka",
+      "reference_epoch": 1435,
+      "inputs": [
+        "deszka",
+        "vasszerszám"
+      ],
+      "output": "faszerkezet",
+      "dependencies": [
+        "saw",
+        "smith"
+      ],
+      "facility": "ácsműhely",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "coal",
+      "name": "Szénbányászat",
+      "reference_epoch": 1885,
+      "inputs": [
+        "szénlelőhely"
+      ],
+      "output": "szén",
+      "dependencies": [],
+      "facility": "bánya",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "coke",
+      "name": "Kokszgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "szén"
+      ],
+      "output": "koksz",
+      "dependencies": [
+        "coal"
+      ],
+      "facility": "kokszoló",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "pigiron",
+      "name": "Nyersvasgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "vasérc",
+        "koksz",
+        "mészkő"
+      ],
+      "output": "nyersvas",
+      "dependencies": [
+        "ore",
+        "coke"
+      ],
+      "facility": "nagyolvasztó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "steel",
+      "name": "Acélgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "nyersvas"
+      ],
+      "output": "acél",
+      "dependencies": [
+        "pigiron"
+      ],
+      "facility": "acélmű",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "rolling",
+      "name": "Hengerlés",
+      "reference_epoch": 1885,
+      "inputs": [
+        "acél"
+      ],
+      "output": "hengerelt acél",
+      "dependencies": [
+        "steel"
+      ],
+      "facility": "hengermű",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "machining",
+      "name": "Gépi forgácsolás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "acél"
+      ],
+      "output": "gépalkatrész",
+      "dependencies": [
+        "steel"
+      ],
+      "facility": "szerszámgép",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "steam",
+      "name": "Gőzgépgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "gépalkatrész",
+        "öntvény"
+      ],
+      "output": "gőzgép",
+      "dependencies": [
+        "machining"
+      ],
+      "facility": "gépgyár",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "rail",
+      "name": "Síntermelés",
+      "reference_epoch": 1885,
+      "inputs": [
+        "acél"
+      ],
+      "output": "vasúti sín",
+      "dependencies": [
+        "rolling"
+      ],
+      "facility": "hengermű",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "textile",
+      "name": "Gépi textilgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "fonal",
+        "energia"
+      ],
+      "output": "textil",
+      "dependencies": [
+        "spin",
+        "steam"
+      ],
+      "facility": "textilgyár",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "paper",
+      "name": "Papírgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "rost",
+        "víz",
+        "energia"
+      ],
+      "output": "papír",
+      "dependencies": [
+        "steam"
+      ],
+      "facility": "papírgyár",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "print",
+      "name": "Nyomtatás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "papír",
+        "tinta"
+      ],
+      "output": "nyomtatvány",
+      "dependencies": [
+        "paper"
+      ],
+      "facility": "nyomda",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "glass",
+      "name": "Üveggyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "homok",
+        "szóda",
+        "mészkő",
+        "tüzelő"
+      ],
+      "output": "üveg",
+      "dependencies": [],
+      "facility": "üvegkemence",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "copper",
+      "name": "Rézfeldolgozás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "rézérc",
+        "energia"
+      ],
+      "output": "réz",
+      "dependencies": [],
+      "facility": "kohó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "wire",
+      "name": "Huzalhúzás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "réz"
+      ],
+      "output": "rézhuzal",
+      "dependencies": [
+        "copper"
+      ],
+      "facility": "huzalhúzó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "generator",
+      "name": "Generátorgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "rézhuzal",
+        "acél",
+        "gépalkatrész"
+      ],
+      "output": "generátor",
+      "dependencies": [
+        "wire",
+        "machining"
+      ],
+      "facility": "villamos gépműhely",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "electric",
+      "name": "Villamosenergia-termelés",
+      "reference_epoch": 1885,
+      "inputs": [
+        "mechanikai energia"
+      ],
+      "output": "villamos energia",
+      "dependencies": [
+        "generator"
+      ],
+      "facility": "erőmű",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "cement",
+      "name": "Cementgyártás",
+      "reference_epoch": 1885,
+      "inputs": [
+        "mészkő",
+        "agyag",
+        "tüzelő"
+      ],
+      "output": "cement",
+      "dependencies": [
+        "clay"
+      ],
+      "facility": "cementkemence",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "concrete",
+      "name": "Betonkeverés",
+      "reference_epoch": 1885,
+      "inputs": [
+        "cement",
+        "víz",
+        "adalékanyag"
+      ],
+      "output": "beton",
+      "dependencies": [
+        "cement"
+      ],
+      "facility": "keverő",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "recycle",
+      "name": "Fém újrahasznosítása",
+      "reference_epoch": 2032,
+      "inputs": [
+        "fémhulladék",
+        "energia"
+      ],
+      "output": "másodlagos fém",
+      "dependencies": [],
+      "facility": "válogató és olvasztó",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "cnc",
+      "name": "CNC megmunkálás",
+      "reference_epoch": 2032,
+      "inputs": [
+        "fém",
+        "energia"
+      ],
+      "output": "precíziós alkatrész",
+      "dependencies": [
+        "machining",
+        "electric"
+      ],
+      "facility": "CNC gép",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "pcb",
+      "name": "Áramköri lap szerelése",
+      "reference_epoch": 2032,
+      "inputs": [
+        "áramköri lap",
+        "elektronikai alkatrész"
+      ],
+      "output": "elektronikai egység",
+      "dependencies": [
+        "electric"
+      ],
+      "facility": "szerelősor",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "solar",
+      "name": "Napelem-modul összeszerelése",
+      "reference_epoch": 2032,
+      "inputs": [
+        "napelemcella",
+        "üveg",
+        "keret"
+      ],
+      "output": "napelem-modul",
+      "dependencies": [
+        "glass",
+        "electric"
+      ],
+      "facility": "szerelősor",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "battery",
+      "name": "Akkumulátorcsomag szerelése",
+      "reference_epoch": 2032,
+      "inputs": [
+        "akkumulátorcella",
+        "vezérlő",
+        "burkolat"
+      ],
+      "output": "akkumulátorcsomag",
+      "dependencies": [
+        "pcb"
+      ],
+      "facility": "szerelősor",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "heatpump",
+      "name": "Hőszivattyú szerelése",
+      "reference_epoch": 2032,
+      "inputs": [
+        "kompresszor",
+        "hőcserélő",
+        "vezérlő"
+      ],
+      "output": "hőszivattyú",
+      "dependencies": [
+        "cnc",
+        "pcb"
+      ],
+      "facility": "szerelőüzem",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "water",
+      "name": "Ivóvízkezelés",
+      "reference_epoch": 2032,
+      "inputs": [
+        "nyersvíz",
+        "energia",
+        "szűrőanyag"
+      ],
+      "output": "ivóvíz",
+      "dependencies": [
+        "electric"
+      ],
+      "facility": "vízmű",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "food",
+      "name": "Élelmiszer-feldolgozás",
+      "reference_epoch": 2032,
+      "inputs": [
+        "mezőgazdasági termék",
+        "energia"
+      ],
+      "output": "csomagolt élelmiszer",
+      "dependencies": [
+        "farm",
+        "electric"
+      ],
+      "facility": "feldolgozóüzem",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "repair",
+      "name": "Gépjavítás",
+      "reference_epoch": 2032,
+      "inputs": [
+        "alkatrész",
+        "hibás gép"
+      ],
+      "output": "javított gép",
+      "dependencies": [
+        "cnc"
+      ],
+      "facility": "javítóműhely",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    },
+    {
+      "id": "assembly",
+      "name": "Moduláris épület szerelése",
+      "reference_epoch": 2032,
+      "inputs": [
+        "építőelemek",
+        "energia"
+      ],
+      "output": "épületmodul",
+      "dependencies": [
+        "concrete",
+        "cnc"
+      ],
+      "facility": "szerelőtelep",
+      "quantity": null,
+      "duration_hours": null,
+      "energy_kwh": null,
+      "verification_status": "design_template",
+      "notes": "Illustrative dependency graph, not a complete engineering recipe or earliest invention date."
+    }
+  ]
+}
