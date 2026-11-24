@@ -1,0 +1,1135 @@
+{
+  "schema_version": 1,
+  "dataset": "building_archetypes",
+  "calendar": "astronomical",
+  "notes": "Illustrative building archetypes for procedural generation, not documented individual buildings. Dimensions are design defaults. No historical footprint or collision geometry.",
+  "records": [
+    {
+      "id": "-8999-shelter",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "name": "Ideiglenes vadásztábor",
+      "materials": [
+        "faág",
+        "bőr",
+        "növényi rost"
+      ],
+      "usage": "Könnyű, szezonális menedék",
+      "prototype_footprint_m": {
+        "width": 4,
+        "depth": 4
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "-8999-hearth",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "name": "Szabadtéri tűzhely",
+      "materials": [
+        "kő",
+        "föld"
+      ],
+      "usage": "Főzés és melegedés",
+      "prototype_footprint_m": {
+        "width": 2,
+        "depth": 2
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "-8999-work-area",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "name": "Kőeszköz-készítő hely",
+      "materials": [
+        "fa",
+        "kő"
+      ],
+      "usage": "Szabadtéri munkaterület",
+      "prototype_footprint_m": {
+        "width": 3,
+        "depth": 3
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "-8999-windbreak",
+      "year": -8999,
+      "era": "Korai mezolitikum",
+      "name": "Szélfogó",
+      "materials": [
+        "ágak",
+        "növényi rost"
+      ],
+      "usage": "Ideiglenes védelem",
+      "prototype_footprint_m": {
+        "width": 3,
+        "depth": 2
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-cottage",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Parasztház",
+      "materials": [
+        "fa",
+        "patics",
+        "nád"
+      ],
+      "usage": "Lakóépület",
+      "prototype_footprint_m": {
+        "width": 7,
+        "depth": 5
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-longhouse",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Hosszúház",
+      "materials": [
+        "fa",
+        "patics",
+        "szalma"
+      ],
+      "usage": "Lakó- és gazdasági funkció",
+      "prototype_footprint_m": {
+        "width": 12,
+        "depth": 5
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-townhouse",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Városi favázas ház",
+      "materials": [
+        "fa",
+        "patics",
+        "cserép"
+      ],
+      "usage": "Lakó- és kereskedelmi épület",
+      "prototype_footprint_m": {
+        "width": 6,
+        "depth": 9
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-church",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Falusi templom",
+      "materials": [
+        "kovakő",
+        "mészkő",
+        "fa"
+      ],
+      "usage": "Vallási épület",
+      "prototype_footprint_m": {
+        "width": 20,
+        "depth": 8
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-barn",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Pajta",
+      "materials": [
+        "fa",
+        "nád"
+      ],
+      "usage": "Terménytárolás",
+      "prototype_footprint_m": {
+        "width": 14,
+        "depth": 7
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-stable",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Istálló",
+      "materials": [
+        "fa",
+        "patics"
+      ],
+      "usage": "Állattartás",
+      "prototype_footprint_m": {
+        "width": 8,
+        "depth": 5
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-smithy",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Kovácsműhely",
+      "materials": [
+        "fa",
+        "kő",
+        "agyag"
+      ],
+      "usage": "Fémmegmunkálás",
+      "prototype_footprint_m": {
+        "width": 7,
+        "depth": 5
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-bakery",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Pékműhely",
+      "materials": [
+        "fa",
+        "tégla",
+        "agyag"
+      ],
+      "usage": "Élelmiszer-termelés",
+      "prototype_footprint_m": {
+        "width": 6,
+        "depth": 5
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-watermill",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Vízimalom",
+      "materials": [
+        "fa",
+        "kő"
+      ],
+      "usage": "Őrlés; vízfolyás szükséges",
+      "prototype_footprint_m": {
+        "width": 9,
+        "depth": 7
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-windmill",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Bakos szélmalom",
+      "materials": [
+        "fa"
+      ],
+      "usage": "Őrlés; szélnek kitett hely",
+      "prototype_footprint_m": {
+        "width": 6,
+        "depth": 6
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-market",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Piaci stand",
+      "materials": [
+        "fa",
+        "vászon"
+      ],
+      "usage": "Kereskedelem",
+      "prototype_footprint_m": {
+        "width": 3,
+        "depth": 2
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-inn",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Fogadó",
+      "materials": [
+        "fa",
+        "patics"
+      ],
+      "usage": "Szállás és vendéglátás",
+      "prototype_footprint_m": {
+        "width": 12,
+        "depth": 8
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-manor",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Udvarház",
+      "materials": [
+        "fa",
+        "kő",
+        "tégla"
+      ],
+      "usage": "Birtokigazgatás és lakóhely",
+      "prototype_footprint_m": {
+        "width": 20,
+        "depth": 12
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-well",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Kút",
+      "materials": [
+        "kő",
+        "fa"
+      ],
+      "usage": "Vízellátás",
+      "prototype_footprint_m": {
+        "width": 2,
+        "depth": 2
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-monastery",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Kolostori épületszárny",
+      "materials": [
+        "kő",
+        "kovakő",
+        "fa"
+      ],
+      "usage": "Vallási közösség",
+      "prototype_footprint_m": {
+        "width": 24,
+        "depth": 10
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1435-granary",
+      "year": 1435,
+      "era": "Késő középkor",
+      "name": "Magtár",
+      "materials": [
+        "fa",
+        "kő"
+      ],
+      "usage": "Száraz terménytárolás",
+      "prototype_footprint_m": {
+        "width": 8,
+        "depth": 5
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-terrace",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Sorház",
+      "materials": [
+        "tégla",
+        "pala"
+      ],
+      "usage": "Városi munkáslakás",
+      "prototype_footprint_m": {
+        "width": 5,
+        "depth": 10
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-villa",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Villa",
+      "materials": [
+        "tégla",
+        "kő",
+        "pala"
+      ],
+      "usage": "Polgári lakóépület",
+      "prototype_footprint_m": {
+        "width": 12,
+        "depth": 10
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-farmhouse",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Farmház",
+      "materials": [
+        "tégla",
+        "fa",
+        "cserép"
+      ],
+      "usage": "Mezőgazdasági lakóhely",
+      "prototype_footprint_m": {
+        "width": 12,
+        "depth": 8
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-factory",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Gyárépület",
+      "materials": [
+        "tégla",
+        "öntöttvas",
+        "fa"
+      ],
+      "usage": "Ipari termelés",
+      "prototype_footprint_m": {
+        "width": 35,
+        "depth": 18
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-warehouse",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Raktár",
+      "materials": [
+        "tégla",
+        "fa"
+      ],
+      "usage": "Árutárolás",
+      "prototype_footprint_m": {
+        "width": 20,
+        "depth": 12
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-station",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Vasútállomás",
+      "materials": [
+        "tégla",
+        "fa",
+        "vas"
+      ],
+      "usage": "Vasúti közlekedés",
+      "prototype_footprint_m": {
+        "width": 22,
+        "depth": 8
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-signalbox",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Vasúti jelzőház",
+      "materials": [
+        "tégla",
+        "fa",
+        "üveg"
+      ],
+      "usage": "Vasúti irányítás",
+      "prototype_footprint_m": {
+        "width": 5,
+        "depth": 4
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-school",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Iskola",
+      "materials": [
+        "tégla",
+        "pala"
+      ],
+      "usage": "Oktatás",
+      "prototype_footprint_m": {
+        "width": 18,
+        "depth": 10
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-pub",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Kocsma",
+      "materials": [
+        "tégla",
+        "fa"
+      ],
+      "usage": "Vendéglátás",
+      "prototype_footprint_m": {
+        "width": 10,
+        "depth": 9
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-shop",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Üzlethelyiség",
+      "materials": [
+        "tégla",
+        "üveg",
+        "fa"
+      ],
+      "usage": "Kiskereskedelem",
+      "prototype_footprint_m": {
+        "width": 6,
+        "depth": 10
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-chapel",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Kápolna",
+      "materials": [
+        "tégla",
+        "kő"
+      ],
+      "usage": "Vallási épület",
+      "prototype_footprint_m": {
+        "width": 16,
+        "depth": 9
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-postoffice",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Postahivatal",
+      "materials": [
+        "tégla",
+        "fa"
+      ],
+      "usage": "Postai szolgáltatás",
+      "prototype_footprint_m": {
+        "width": 9,
+        "depth": 8
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-gasworks",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Gázmű épülete",
+      "materials": [
+        "tégla",
+        "vas"
+      ],
+      "usage": "Városi energiaellátás",
+      "prototype_footprint_m": {
+        "width": 25,
+        "depth": 15
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-pumphouse",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Szivattyúház",
+      "materials": [
+        "tégla",
+        "vas"
+      ],
+      "usage": "Vízrendezés",
+      "prototype_footprint_m": {
+        "width": 10,
+        "depth": 7
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-workshop",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Kézműves műhely",
+      "materials": [
+        "tégla",
+        "fa"
+      ],
+      "usage": "Kisipar",
+      "prototype_footprint_m": {
+        "width": 8,
+        "depth": 6
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "1885-hospital",
+      "year": 1885,
+      "era": "Viktoriánus korszak",
+      "name": "Kórházi pavilon",
+      "materials": [
+        "tégla",
+        "kő"
+      ],
+      "usage": "Egészségügy",
+      "prototype_footprint_m": {
+        "width": 28,
+        "depth": 12
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "unverified_typology",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-house",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Családi ház",
+      "materials": [
+        "tégla",
+        "beton",
+        "fa"
+      ],
+      "usage": "Lakóépület",
+      "prototype_footprint_m": {
+        "width": 10,
+        "depth": 9
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-apartment",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Társasház",
+      "materials": [
+        "beton",
+        "acél",
+        "üveg"
+      ],
+      "usage": "Lakóépület",
+      "prototype_footprint_m": {
+        "width": 25,
+        "depth": 15
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-supermarket",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Szupermarket",
+      "materials": [
+        "acél",
+        "beton",
+        "üveg"
+      ],
+      "usage": "Kereskedelem",
+      "prototype_footprint_m": {
+        "width": 45,
+        "depth": 30
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-office",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Irodaház",
+      "materials": [
+        "acél",
+        "beton",
+        "üveg"
+      ],
+      "usage": "Munkahely",
+      "prototype_footprint_m": {
+        "width": 25,
+        "depth": 20
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-clinic",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Orvosi rendelő",
+      "materials": [
+        "tégla",
+        "beton",
+        "üveg"
+      ],
+      "usage": "Egészségügy",
+      "prototype_footprint_m": {
+        "width": 18,
+        "depth": 12
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-solar",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Napelemes gazdasági épület",
+      "materials": [
+        "acél",
+        "fa",
+        "napelem"
+      ],
+      "usage": "Energia és tárolás",
+      "prototype_footprint_m": {
+        "width": 20,
+        "depth": 12
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-logistics",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Logisztikai csarnok",
+      "materials": [
+        "acél",
+        "beton"
+      ],
+      "usage": "Árutárolás",
+      "prototype_footprint_m": {
+        "width": 60,
+        "depth": 35
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-substation",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Villamos alállomás",
+      "materials": [
+        "beton",
+        "acél"
+      ],
+      "usage": "Energiaellátás",
+      "prototype_footprint_m": {
+        "width": 12,
+        "depth": 10
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-school",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Modern iskola",
+      "materials": [
+        "tégla",
+        "beton",
+        "üveg"
+      ],
+      "usage": "Oktatás",
+      "prototype_footprint_m": {
+        "width": 35,
+        "depth": 20
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-station",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Modern állomás",
+      "materials": [
+        "acél",
+        "beton",
+        "üveg"
+      ],
+      "usage": "Közlekedés",
+      "prototype_footprint_m": {
+        "width": 25,
+        "depth": 12
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-workshop",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Javítóműhely",
+      "materials": [
+        "acél",
+        "beton"
+      ],
+      "usage": "Karbantartás",
+      "prototype_footprint_m": {
+        "width": 15,
+        "depth": 10
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    },
+    {
+      "id": "2032-community",
+      "year": 2032,
+      "era": "Fiktív közeljövő",
+      "name": "Közösségi központ",
+      "materials": [
+        "fa",
+        "tégla",
+        "üveg"
+      ],
+      "usage": "Közösségi szolgáltatás",
+      "prototype_footprint_m": {
+        "width": 20,
+        "depth": 15
+      },
+      "dimensions_status": "fictional procedural design defaults, not surveyed measurements",
+      "historical_status": "fictional_projection",
+      "source_leads": [
+        "https://historicengland.org.uk/",
+        "https://www.wealddown.co.uk/"
+      ],
+      "placement_status": "requires terrain and period validation",
+      "landing_safety": "unknown"
+    }
+  ]
+}
