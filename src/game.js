@@ -308,7 +308,9 @@ function renderHUD() {
 // -------------------------------------------------------------------- loop
 let frameError = null;
 function frame(now) {
-  const dt = Math.min(0.05, (now - lastFrame) / 1000);
+  // Real elapsed time (capped at 0.25 s after tab switches) so movement and the
+  // game clock do not slow down on low frame rates; movement is sub-stepped.
+  const dt = Math.min(0.25, (now - lastFrame) / 1000);
   lastFrame = now;
   try {
     const paused = anyDialog() || state.survival.dead;
@@ -318,11 +320,14 @@ function frame(now) {
       const r = Number(keys.has('d') || keys.has('arrowright')) - Number(keys.has('a') || keys.has('arrowleft'));
       const inWater = world.isWater(p.x, p.z, date());
       const speed = (keys.has('shift') ? 9 : 5) * (inWater ? 0.4 : 1) * (state.survival.fatigue > 90 ? 0.6 : 1);
-      const scale = (speed * dt) / Math.max(1, Math.hypot(f, r));
-      const nx = p.x + (-Math.sin(p.yaw) * f + Math.cos(p.yaw) * r) * scale;
-      const nz = p.z + (-Math.cos(p.yaw) * f - Math.sin(p.yaw) * r) * scale;
-      if (!world.isBlocked(nx, p.z, date())) p.x = nx;
-      if (!world.isBlocked(p.x, nz, date())) p.z = nz;
+      const steps = Math.max(1, Math.ceil(dt / 0.05));
+      const scale = (speed * dt) / steps / Math.max(1, Math.hypot(f, r));
+      for (let i = 0; i < steps && (f || r); i++) {
+        const nx = p.x + (-Math.sin(p.yaw) * f + Math.cos(p.yaw) * r) * scale;
+        const nz = p.z + (-Math.cos(p.yaw) * f - Math.sin(p.yaw) * r) * scale;
+        if (!world.isBlocked(nx, p.z, date())) p.x = nx;
+        if (!world.isBlocked(p.x, nz, date())) p.z = nz;
+      }
       handleDeath(advanceReal(state, dt));
       saveTimer += dt;
       if (saveTimer > AUTOSAVE_SECONDS) { saveTimer = 0; save(); }
