@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CHRONOVERSE</title>
+<style>
+  :root { color-scheme: dark; --line: #2b4762; --accent: #79d8ff; --muted: #a8bdd2; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: radial-gradient(ellipse at top, #18324a, #070d16 70%); color: #edf5ff; font: 16px/1.5 system-ui, sans-serif; display: grid; place-items: center; padding: 24px 16px; }
+  main { width: min(560px, 100%); }
+  h1 { letter-spacing: .3em; color: var(--accent); font-size: clamp(2rem, 8vw, 3.2rem); margin: 0; text-align: center; }
+  .tag { text-align: center; color: var(--muted); margin: 4px 0 28px; }
+  .panel { border: 1px solid var(--line); border-radius: 14px; padding: 18px; background: #0f1f33cc; margin-bottom: 14px; }
+  button, input, select { width: 100%; font: inherit; padding: 11px; border-radius: 9px; border: 1px solid #3e617e; background: #0c192a; color: #fff; }
+  button { background: #137a9e; border: 0; cursor: pointer; font-weight: 700; margin-top: 10px; }
+  button:hover { background: #1c9fc7; } button.secondary { background: #233a52; font-weight: 400; }
+  label { display: block; margin: 10px 0 4px; color: #c3d9ed; font-size: .92rem; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0 12px; }
+  small, .muted { color: var(--muted); }
+  footer { text-align: center; font-size: .85rem; margin-top: 18px; }
+  a { color: var(--accent); }
+  #status { color: #ffd27a; min-height: 1.5em; }
+</style>
+</head>
+<body>
+<main>
+  <h1>CHRONOVERSE</h1>
+  <p class="tag">Történelmi időutazás · böngészős prototípus</p>
+
+  <section class="panel" id="continuePanel" hidden>
+    <div id="continueInfo"></div>
+    <button id="continue">Folytatás</button>
+    <div id="slots"></div>
+  </section>
+
+  <section class="panel">
+    <h2 style="margin-top:0">Új karakter</h2>
+    <form id="newGame">
+      <label for="name">Név</label><input id="name" required maxlength="40" value="Utazó">
+      <div class="grid">
+        <div><label for="sex">Nem</label><select id="sex"><option value="female">nő</option><option value="male">férfi</option><option value="unspecified" selected>nem megadott</option></select></div>
+        <div><label for="age">Életkor (év)</label><input id="age" type="number" min="18" max="80" value="30"></div>
+        <div><label for="height">Magasság (cm)</label><input id="height" type="number" min="140" max="215" value="175"></div>
+        <div><label for="weight">Testsúly (kg)</label><input id="weight" type="number" min="40" max="160" value="72"></div>
+      </div>
+      <label for="background">Háttér</label>
+      <select id="background">
+        <option value="kutató">Történész-kutató (jobb tájékozódás, latin és angol nyelv)</option>
+        <option value="orvos">Orvos (orvosi ismeretek)</option>
+        <option value="mérnök">Mérnök (technikai ismeretek)</option>
+        <option value="kereskedő">Kereskedő (kereskedelem, tárgyalás)</option>
+      </select>
+      <button type="submit">Indulás – 2032</button>
+      <p id="status"></p>
+    </form>
+  </section>
+  <footer><a href="debug.html">Fejlesztői felület (debug)</a> · <a href="https://github.com/scarab0793/chronoverse">GitHub</a></footer>
+</main>
+<script type="module">
+import { createSaveManager, AUTOSAVE, MANUAL_SLOTS } from './src/core/SaveManager.js';
+import { createGameState } from './src/core/GameState.js';
+import { formatDate } from './src/core/time.js';
+
+const $ = id => document.getElementById(id);
+const saves = createSaveManager(localStorage);
+const BACKGROUNDS = {
+  'kutató': { skills: { navigation: 0.4, medicine: 0.1, crafting: 0.1, trade: 0.1 }, languages: { hu: 1, en: 0.9, la: 0.5 } },
+  'orvos': { skills: { navigation: 0.2, medicine: 0.7, crafting: 0.1, trade: 0.1 }, languages: { hu: 1, en: 0.8, la: 0.3 } },
+  'mérnök': { skills: { navigation: 0.2, medicine: 0.1, crafting: 0.6, trade: 0.1 }, languages: { hu: 1, en: 0.8 } },
+  'kereskedő': { skills: { navigation: 0.2, medicine: 0.1, crafting: 0.1, trade: 0.6 }, languages: { hu: 1, en: 0.9, de: 0.4 } },
+};
+
+let auto = null;
+try { auto = saves.loadOrMigrate().state; } catch (e) { $('status').textContent = 'A meglévő mentés sérült: ' + e.message; }
+if (auto) {
+  $('continuePanel').hidden = false;
+  $('continueInfo').textContent = `${auto.character.name} – ${formatDate(auto.clock.historicalDate)}${auto.survival.dead ? ' (elhunyt)' : ''}`;
+  $('continue').onclick = () => { location.href = 'render.html'; };
+}
+for (const slot of MANUAL_SLOTS) {
+  const info = saves.info(slot);
+  if (!info || !info.summary) continue;
+  $('continuePanel').hidden = false;
+  const b = document.createElement('button');
+  b.className = 'secondary';
+  b.textContent = `Betöltés – ${slot.replace('slot', 'Hely ')}: ${info.summary.name}, ${formatDate(info.summary.historicalDate)}`;
+  b.onclick = () => { location.href = 'render.html?slot=' + slot; };
+  $('slots').append(b);
+}
+
+$('newGame').addEventListener('submit', e => {
+  e.preventDefault();
+  if (auto && !auto.survival.dead && !confirm('Új játék indításával az automatikus mentés felülíródik (a kézi mentések megmaradnak). Folytatod?')) return;
+  const bg = $('background').value;
+  const state = createGameState({
+    name: $('name').value, sex: $('sex').value, ageYears: Number($('age').value),
+    heightCm: Number($('height').value), weightKg: Number($('weight').value), background: bg, ...BACKGROUNDS[bg],
+  });
+  try { saves.save(state, AUTOSAVE, 'new'); location.href = 'render.html'; }
+  catch (err) { $('status').textContent = 'Nem sikerült menteni: ' + err.message; }
+});
+if (location.hash === '#new') $('name').focus();
+</script>
+</body>
+</html>
