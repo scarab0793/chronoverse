@@ -1,0 +1,11 @@
+{
+  "name": "chronoverse",
+  "private": true,
+  "type": "module",
+  "description": "CHRONOVERSE – browser prototype of an open-world historical time-travel game",
+  "scripts": {
+    "serve": "python3 -m http.server 8123",
+    "test": "node --test \"tests/unit/*.test.mjs\" \"tests/data/*.test.mjs\"",
+    "test:browser": "node tests/browser/smoke.mjs"
+  }
+}
