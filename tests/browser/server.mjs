@@ -11,9 +11,10 @@ export function startServer(port = 0) {
   const server = http.createServer(async (req, res) => {
     const path = normalize(decodeURIComponent(new URL(req.url, 'http://x').pathname)).replace(/^([/\\])+/, '');
     if (path.startsWith('..')) { res.writeHead(403).end(); return; }
+    const file = path === '.' || path === '' ? 'index.html' : path;
     try {
-      const body = await readFile(join(root, path || 'index.html'));
-      res.writeHead(200, { 'content-type': types[extname(path)] || 'application/octet-stream' }).end(body);
+      const body = await readFile(join(root, file));
+      res.writeHead(200, { 'content-type': types[extname(file)] || 'application/octet-stream' }).end(body);
     } catch { res.writeHead(404).end('not found'); }
   });
   return new Promise(r => server.listen(port, '127.0.0.1', () => r({ server, url: `http://127.0.0.1:${server.address().port}/` })));
